@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.SmackException;
@@ -22,6 +23,15 @@ public class XMPPController {
 
     private AbstractXMPPConnection connection;
 
+    @Value("${xmpp.domain}")
+    private String domain;
+    
+    @Value("${xmpp.host}")
+    private String host;
+    
+    @Value("${xmpp.port}")
+    private int port;
+    
     @PostMapping("/connect")
     public Map<String, String> connect(@RequestParam("username") String username, @RequestParam("password") String password) {
         Map<String, String> response = new HashMap<>();
@@ -29,9 +39,9 @@ public class XMPPController {
         try {
             XMPPTCPConnectionConfiguration config = XMPPTCPConnectionConfiguration.builder()
                     .setUsernameAndPassword(username, password)
-                    .setXmppDomain("alumchat.lol")
-                    .setHost("alumchat.lol") // Usar "alumchat.lol" como host si no se proporciona otro
-                    .setPort(5222)
+                    .setXmppDomain(domain)
+                    .setHost(host) 
+                    .setPort(port)
                     .setSecurityMode(ConnectionConfiguration.SecurityMode.disabled)
                     .build();
 
