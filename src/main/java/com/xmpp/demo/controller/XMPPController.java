@@ -23,27 +23,32 @@ public class XMPPController {
     private AbstractXMPPConnection connection;
 
     @PostMapping("/connect")
-    public Map<String, String> connect(@RequestParam String username, @RequestParam String password) throws InterruptedException, XmppStringprepException {
-        XMPPTCPConnectionConfiguration config = XMPPTCPConnectionConfiguration.builder()
-                .setUsernameAndPassword(username, password)
-                .setXmppDomain("your-xmpp-domain")
-                .setHost("your-xmpp-host")
-                .setPort(5222)
-                .setSecurityMode(ConnectionConfiguration.SecurityMode.ifpossible)
-                .build();
-
-        connection = new XMPPTCPConnection(config);
-
+    public Map<String, String> connect(@RequestParam("username") String username, @RequestParam("password") String password) {
         Map<String, String> response = new HashMap<>();
+
         try {
-            connection.connect().login();
+            XMPPTCPConnectionConfiguration config = XMPPTCPConnectionConfiguration.builder()
+                    .setUsernameAndPassword(username, password)
+                    .setXmppDomain("alumchat.lol")
+                    .setHost("alumchat.lol") // Usar "alumchat.lol" como host si no se proporciona otro
+                    .setPort(5222)
+                    .setSecurityMode(ConnectionConfiguration.SecurityMode.disabled)
+                    .build();
+
+            XMPPTCPConnection connection = new XMPPTCPConnection(config);
+            connection.connect();
+            connection.login();
+
             response.put("status", "connected");
-        } catch (SmackException | IOException | XMPPException e) {
-            response.put("status", "failed");
+        } catch (XMPPException | SmackException | IOException | InterruptedException e) {
+            e.printStackTrace(); // Imprimir el stack trace para depuración
+            response.put("status", "connection_failed");
             response.put("error", e.getMessage());
         }
+
         return response;
     }
+
 
     @PostMapping("/disconnect")
     public Map<String, String> disconnect() {
