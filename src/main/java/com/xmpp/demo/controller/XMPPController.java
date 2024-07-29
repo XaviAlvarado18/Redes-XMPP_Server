@@ -11,6 +11,7 @@ import org.jivesoftware.smack.SmackException;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
+import org.jivesoftware.smackx.iqregister.AccountManager;
 import org.jxmpp.stringprep.XmppStringprepException;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,6 +20,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 
 @RestController
@@ -39,7 +42,7 @@ public class XMPPController {
     
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/connect")
-    public Map<String, String> connect(@RequestParam("username") String username, @RequestParam("password") String password) {
+    public Map<String, String> connect(@RequestParam("username") String username, @RequestParam("password") String password, HttpServletRequest request) {
         Map<String, String> response = new HashMap<>();
         
         logger.info("Username: {}", username);
@@ -51,27 +54,27 @@ public class XMPPController {
                     .setXmppDomain(domain)
                     .setHost(host) 
                     .setPort(port)
-                    .setSecurityMode(ConnectionConfiguration.SecurityMode.disabled)
+                    .setSecurityMode(XMPPTCPConnectionConfiguration.SecurityMode.disabled)
                     .build();
 
             XMPPTCPConnection connection = new XMPPTCPConnection(config);
             connection.connect();
             connection.login();
 
+            HttpSession session = request.getSession();
+            session.setAttribute("xmppConnection", connection); // Guardar la conexión en la sesión
+
             response.put("status", "connected");
         } catch (XMPPException | SmackException | IOException | InterruptedException e) {
-        	
-        	logger.info("Username: {}", username);
-            logger.info("Password: {}", password);
-        	
-            e.printStackTrace(); // Imprimir el stack trace para depuración
-            response.put("status", "connection_failed: ");
+            logger.error("Connection failed: ", e);
+            response.put("status", "connection_failed");
             response.put("error", e.getMessage());
         }
 
         return response;
     }
 
+    
 
     @PostMapping("/disconnect")
     public Map<String, String> disconnect() {
