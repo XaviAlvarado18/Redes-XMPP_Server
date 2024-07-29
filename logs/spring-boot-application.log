@@ -1,0 +1,208 @@
+2024-07-27T22:33:22.116-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:33:22.117-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:33:22.247-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:33:22.248-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:33:22.248-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:33:22.263-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:33:22.263-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 144 ms
+2024-07-27T22:33:22.306-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:33:22.312-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:33:22.314-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.235 seconds (process running for 5413.231)
+2024-07-27T22:33:22.315-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:33:35.668-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:33:35.668-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:33:35.668-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-27T22:33:35.670-06:00  WARN 14620 --- [xmpp] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-07-27T22:34:38.808-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:34:38.865-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:34:38.866-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:34:38.973-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:34:38.974-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:34:38.974-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:34:38.987-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:34:38.987-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2024-07-27T22:34:39.022-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:34:39.027-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:34:39.031-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.184 seconds (process running for 5489.948)
+2024-07-27T22:34:39.031-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:34:43.299-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:34:43.299-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:34:43.300-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-27T22:34:43.302-06:00  WARN 14620 --- [xmpp] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-07-27T22:36:27.090-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:36:27.164-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:36:27.164-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:36:27.306-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:36:27.307-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:36:27.307-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:36:27.321-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:36:27.321-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 155 ms
+2024-07-27T22:36:27.362-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:36:27.368-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:36:27.371-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.228 seconds (process running for 5598.287)
+2024-07-27T22:36:27.373-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:36:36.905-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:36:36.964-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:36:36.964-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:36:37.081-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:36:37.081-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:36:37.082-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:36:37.094-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:36:37.094-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2024-07-27T22:36:37.130-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:36:37.138-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:36:37.139-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.193 seconds (process running for 5608.056)
+2024-07-27T22:36:37.140-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:37:12.062-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:37:12.120-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:37:12.121-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:37:12.259-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:37:12.260-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:37:12.260-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:37:12.273-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:37:12.274-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 152 ms
+2024-07-27T22:37:12.312-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:37:12.319-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:37:12.321-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.218 seconds (process running for 5643.237)
+2024-07-27T22:37:12.321-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:37:18.212-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:37:18.213-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:37:18.213-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-27T22:37:18.215-06:00  WARN 14620 --- [xmpp] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-07-27T22:39:43.038-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:39:43.106-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:39:43.107-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:39:43.228-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:39:43.229-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:39:43.229-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:39:43.242-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:39:43.242-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2024-07-27T22:39:43.276-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:39:43.281-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:39:43.284-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.201 seconds (process running for 5794.201)
+2024-07-27T22:39:43.285-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:39:48.022-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:39:48.022-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:39:48.023-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-27T22:39:48.025-06:00  WARN 14620 --- [xmpp] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-07-27T22:40:58.768-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:40:58.823-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:40:58.823-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:40:58.963-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:40:58.964-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:40:58.964-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:40:58.978-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:40:58.978-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 153 ms
+2024-07-27T22:40:59.017-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:40:59.023-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:40:59.027-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.22 seconds (process running for 5869.944)
+2024-07-27T22:40:59.028-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:41:18.434-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:41:18.434-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:41:18.435-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-27T22:41:18.437-06:00  WARN 14620 --- [xmpp] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-07-27T22:43:57.098-06:00 ERROR 14620 --- [xmpp] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	The method put(String, String) in the type Map<String,String> is not applicable for the arguments (String, String, String)
+] with root cause
+
+java.lang.Error: Unresolved compilation problem: 
+	The method put(String, String) in the type Map<String,String> is not applicable for the arguments (String, String, String)
+
+	at com.xmpp.demo.controller.XMPPController.connect(XMPPController.java:67) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-07-27T22:44:30.263-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:44:30.323-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:44:30.324-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:44:30.433-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:44:30.434-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:44:30.434-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:44:30.447-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:44:30.447-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-07-27T22:44:30.480-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:44:30.486-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:44:30.489-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.183 seconds (process running for 6081.406)
+2024-07-27T22:44:30.490-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:44:37.977-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:44:38.031-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:44:38.032-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:44:38.146-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:44:38.147-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:44:38.147-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:44:38.160-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:44:38.160-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2024-07-27T22:44:38.197-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:44:38.204-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:44:38.206-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.191 seconds (process running for 6089.122)
+2024-07-27T22:44:38.206-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:44:41.854-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:44:41.854-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:44:41.854-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-27T22:45:19.121-06:00  INFO 14620 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-27T22:45:19.181-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14620 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-07-27T22:45:19.182-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T22:45:19.310-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-27T22:45:19.311-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-27T22:45:19.311-06:00  INFO 14620 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-27T22:45:19.324-06:00  INFO 14620 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-27T22:45:19.324-06:00  INFO 14620 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 140 ms
+2024-07-27T22:45:19.364-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-27T22:45:19.370-06:00  INFO 14620 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-27T22:45:19.372-06:00  INFO 14620 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.209 seconds (process running for 6130.289)
+2024-07-27T22:45:19.374-06:00  INFO 14620 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-27T22:45:19.938-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27T22:45:19.938-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-27T22:45:19.938-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-27T22:45:19.940-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-07-27T22:45:19.943-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-07-27T22:46:04.647-06:00  WARN 14620 --- [xmpp] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-07-27T22:49:35.214-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-07-27T22:49:35.214-06:00  INFO 14620 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-07-27T22:54:54.177-06:00  INFO 14620 --- [xmpp] [RMI TCP Connection(115)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
