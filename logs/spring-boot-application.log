@@ -4996,3 +4996,34 @@ Caused by: java.lang.ClassNotFoundException: HttpServletRequest
 2024-07-29T11:59:33.502-06:00  INFO 19892 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2024-07-29T11:59:33.842-06:00  INFO 19892 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 19892 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
 2024-07-29T11:59:33.850-06:00  INFO 19892 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T11:59:34.225-06:00  INFO 19892 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-29T11:59:34.235-06:00  INFO 19892 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T11:59:34.237-06:00  INFO 19892 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-29T11:59:34.284-06:00  INFO 19892 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-16].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2024-07-29T11:59:34.300-06:00  INFO 19892 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 438 ms
+2024-07-29T11:59:34.677-06:00  INFO 19892 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T11:59:34.689-06:00  INFO 19892 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-29T11:59:34.693-06:00  INFO 19892 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.96 seconds (process running for 8101.425)
+2024-07-29T11:59:34.696-06:00  INFO 19892 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-29T11:59:37.539-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-16].[localhost].[/]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-29T11:59:37.551-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-29T11:59:37.552-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-29T11:59:41.854-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-07-29T11:59:41.856-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-07-29T12:15:56.701-06:00  INFO 19892 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-29T12:15:57.171-06:00  INFO 19892 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 19892 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-07-29T12:15:57.172-06:00  INFO 19892 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T12:15:58.008-06:00  INFO 19892 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-29T12:15:58.043-06:00  INFO 19892 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T12:15:58.065-06:00  INFO 19892 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-29T12:15:58.150-06:00  INFO 19892 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-16].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2024-07-29T12:15:58.155-06:00  INFO 19892 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2024-07-29T12:15:59.274-06:00  INFO 19892 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T12:15:59.286-06:00  INFO 19892 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-29T12:15:59.291-06:00  INFO 19892 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 2.283 seconds (process running for 9086.023)
+2024-07-29T12:15:59.292-06:00  INFO 19892 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-29T12:16:24.475-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-16].[localhost].[/]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-29T12:16:24.476-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-29T12:16:24.479-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-07-29T12:16:24.523-06:00  WARN 19892 --- [xmpp] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'password' for method parameter type String is not present]
+2024-07-29T12:16:49.791-06:00  INFO 19892 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Registering user: alv21188-test

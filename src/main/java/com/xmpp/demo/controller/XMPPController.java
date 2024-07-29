@@ -9,6 +9,7 @@ import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.SmackException;
 import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.roster.Roster;
 import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
 import org.jivesoftware.smackx.iqregister.AccountManager;
@@ -20,6 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.jxmpp.jid.parts.Localpart;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
@@ -74,6 +76,45 @@ public class XMPPController {
         return response;
     }
 
+
+    @PostMapping("/register")
+    public Map<String, String> register(@RequestParam("username") String username, @RequestParam("password") String password) {
+        Map<String, String> response = new HashMap<>();
+ 
+        logger.info("Registering user: {}", username);
+ 
+        try {
+            XMPPTCPConnectionConfiguration config = XMPPTCPConnectionConfiguration.builder()
+                    .setXmppDomain(domain)
+                    .setHost(host)
+                    .setPort(port)
+                    .setSecurityMode(ConnectionConfiguration.SecurityMode.disabled)
+                    .build();
+ 
+            connection = new XMPPTCPConnection(config);
+            connection.connect();
+ 
+            AccountManager accountManager = AccountManager.getInstance(connection);
+            accountManager.sensitiveOperationOverInsecureConnection(true);
+ 
+           
+ 
+            Localpart localpartUsername = Localpart.from(username);
+            accountManager.createAccount(localpartUsername, password);
+ 
+            response.put("status", "registered");
+        } catch (XMPPException | SmackException | IOException | InterruptedException e) {
+            logger.error("Registration failed", e);
+            response.put("status", "registration_failed");
+            response.put("error", e.getMessage());
+        } finally {
+            if (connection != null && connection.isConnected()) {
+                connection.disconnect();
+            }
+        }
+ 
+        return response;
+    }
     
 
     @PostMapping("/disconnect")
