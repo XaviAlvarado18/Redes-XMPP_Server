@@ -59,7 +59,7 @@ public class XMPPController {
                     .setSecurityMode(XMPPTCPConnectionConfiguration.SecurityMode.disabled)
                     .build();
 
-            XMPPTCPConnection connection = new XMPPTCPConnection(config);
+            connection = new XMPPTCPConnection(config);
             connection.connect();
             connection.login();
 
@@ -118,14 +118,29 @@ public class XMPPController {
     
 
     @PostMapping("/disconnect")
-    public Map<String, String> disconnect() {
+    public Map<String, String> disconnect(HttpSession session, @RequestParam("username") String username) {
         Map<String, String> response = new HashMap<>();
-        if (connection != null && connection.isConnected()) {
+
+        connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+        if (connection == null) {
+            logger.warn("No connection found in session for user: {}", username);
+            response.put("status", "no connection found in session");
+            return response;
+        }
+
+        logger.info("Connection found for user: {}", connection.getUser().asEntityBareJidString());
+
+        if (connection.isConnected() && connection.getUser().asEntityBareJidString().equals(username)) {
             connection.disconnect();
+            session.removeAttribute("xmppConnection");  // Limpiar la conexión de la sesión
+            logger.info("User {} disconnected successfully", username);
             response.put("status", "disconnected");
         } else {
-            response.put("status", "not connected");
+            logger.warn("User {} not connected or invalid user", username);
+            response.put("status", "not connected or invalid user");
         }
+
         return response;
     }
 }
