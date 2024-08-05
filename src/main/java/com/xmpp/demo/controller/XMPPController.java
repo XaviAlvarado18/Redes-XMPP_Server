@@ -14,6 +14,7 @@ import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
 import org.jivesoftware.smackx.iqregister.AccountManager;
 import org.jxmpp.stringprep.XmppStringprepException;
+import org.jxmpp.jid.impl.JidCreate;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,6 +33,7 @@ public class XMPPController {
 
 	private static final Logger logger = LoggerFactory.getLogger(XMPPController.class);
     private AbstractXMPPConnection connection;
+    
 
     @Value("${xmpp.domain}")
     private String domain;
@@ -65,6 +67,7 @@ public class XMPPController {
 
             HttpSession session = request.getSession();
             session.setAttribute("xmppConnection", connection); // Guardar la conexión en la sesión
+            logger.info("Connection stored in session: {}", connection);
 
             response.put("status", "connected");
         } catch (XMPPException | SmackException | IOException | InterruptedException e) {
@@ -117,12 +120,16 @@ public class XMPPController {
     }
     
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/disconnect")
     public Map<String, String> disconnect(HttpSession session, @RequestParam("username") String username) {
         Map<String, String> response = new HashMap<>();
 
         connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
 
+        logger.info("Received disconnect request for user: {}", username);
+        logger.info("Connection: {}", connection);
+        
         if (connection == null) {
             logger.warn("No connection found in session for user: {}", username);
             response.put("status", "no connection found in session");
@@ -143,4 +150,39 @@ public class XMPPController {
 
         return response;
     }
+    
+    
+    @CrossOrigin(origins = "http://localhost:4200")
+    @PostMapping("/delete-user")
+    public Map<String, String> deleteUser(HttpSession session, @RequestParam("username") String username) throws IOException {
+        Map<String, String> response = new HashMap<>();
+
+        XMPPTCPConnection connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+        logger.info("Received delete user request for user: {}", username);
+        logger.info("Connection: {}", connection);
+        
+        if (connection == null) {
+            logger.warn("No connection found in session for user: {}", username);
+            response.put("status", "no connection found in session");
+            return response;
+        }
+
+        try {
+            // Create AccountManager using the XMPP connection
+            AccountManager accountManager = AccountManager.getInstance(connection);
+
+            // Delete the account of the currently authenticated user
+            accountManager.deleteAccount();
+            response.put("status", "user_deleted");
+            logger.info("User {} deleted successfully", username);
+        } catch (SmackException | XMPPException | InterruptedException e) {
+            logger.error("Failed to delete user", e);
+            response.put("status", "delete_failed");
+            response.put("error", e.getMessage());
+        }
+
+        return response;
+    }
+    
 }
