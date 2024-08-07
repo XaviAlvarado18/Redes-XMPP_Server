@@ -33,8 +33,8 @@ public class XMPPController {
 
 	private static final Logger logger = LoggerFactory.getLogger(XMPPController.class);
     private AbstractXMPPConnection connection;
+   
     
-
     @Value("${xmpp.domain}")
     private String domain;
     
@@ -43,6 +43,13 @@ public class XMPPController {
     
     @Value("${xmpp.port}")
     private int port;
+    
+    
+    private final MessageService messageService;
+
+    public XMPPController(MessageService messageService) {
+        this.messageService = messageService;
+    }
     
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/connect")
@@ -69,6 +76,10 @@ public class XMPPController {
             session.setAttribute("xmppConnection", connection); // Guardar la conexión en la sesión
             logger.info("Connection stored in session: {}", connection);
 
+            // Inicializar el servicio de mensajes
+            messageService.initialize(connection);
+            
+            
             response.put("status", "connected");
         } catch (XMPPException | SmackException | IOException | InterruptedException e) {
             logger.error("Connection failed: ", e);
