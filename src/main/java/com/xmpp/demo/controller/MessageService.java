@@ -1,6 +1,8 @@
 package com.xmpp.demo.controller;
 
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -21,24 +23,33 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+
 @Service
 public class MessageService {
 	
-    private Map<String, List<String>> userMessages = new ConcurrentHashMap<>();
+
+    private Map<String, List<MessageXMPP>> userMessages = new ConcurrentHashMap<>();
     private static final Logger logger = LoggerFactory.getLogger(XMPPController.class);
-    
+
     public void initialize(AbstractXMPPConnection connection) {
         ChatManager chatManager = ChatManager.getInstanceFor(connection);
         logger.info("ChatManager initialized for connection: {}", connection);
-        
+
         chatManager.addIncomingListener(new IncomingChatMessageListener() {
             @Override
-            public void newIncomingMessage(EntityBareJid from, Message message, org.jivesoftware.smack.chat2.Chat chat) {
+            public void newIncomingMessage(EntityBareJid from, org.jivesoftware.smack.packet.Message message, org.jivesoftware.smack.chat2.Chat chat) {
                 try {
                     String to = ((EntityJid) message.getTo()).asEntityBareJidString();
                     logger.info("Received message from {}: {}. To: {}", from, message.getBody(), to);
-                    
-                    userMessages.computeIfAbsent(to, k -> new ArrayList<>()).add(message.getBody());
+
+                    // Obtener la fecha actual en el formato "dd/MM"
+                    String date_msg = LocalDate.now().format(DateTimeFormatter.ofPattern("dd/MM"));
+
+                    // Crear un nuevo objeto Message con la información adicional
+                    MessageXMPP msg = new MessageXMPP(message.getBody(), from.asEntityBareJidString(), date_msg);
+
+                    // Almacenar el mensaje en la lista correspondiente al usuario
+                    userMessages.computeIfAbsent(to, k -> new ArrayList<>()).add(msg);
                 } catch (Exception e) {
                     logger.error("Error processing incoming message", e);
                 }
@@ -47,10 +58,10 @@ public class MessageService {
 
         logger.info("Incoming message listener added to ChatManager");
     }
-    
-    public List<String> getMessages(String username) {
+
+    public List<MessageXMPP> getMessages(String username) {
         logger.info("Retrieving messages for user: {}", username);
-        List<String> messages = userMessages.getOrDefault(username, new ArrayList<>());
+        List<MessageXMPP> messages = userMessages.getOrDefault(username, new ArrayList<>());
 
         // Log para verificar los mensajes recuperados
         if (messages.isEmpty()) {
@@ -58,18 +69,10 @@ public class MessageService {
         } else {
             logger.info("Messages for user {}: {}", username, messages);
         }
-        
+
         return messages;
     }
 
-
-    public void addMessage(String username, String message) {
-        userMessages.computeIfAbsent(username, k -> new ArrayList<>()).add(message);
-    }
-
-    public void initializeUserMessages(String username) {
-        userMessages.putIfAbsent(username, new ArrayList<>());
-    }
     
     public void sendMessage(AbstractXMPPConnection connection, String to, String body) throws XmppStringprepException, IOException, InterruptedException, XMPPException, NotConnectedException {
         ChatManager chatManager = ChatManager.getInstanceFor(connection);

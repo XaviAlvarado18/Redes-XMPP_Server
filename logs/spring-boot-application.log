@@ -495,3 +495,1291 @@ Message: Connection reset
 2024-08-06T20:23:00.827-06:00  INFO 26324 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
 2024-08-06T20:24:35.903-06:00  INFO 26324 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
 2024-08-06T20:28:29.042-06:00  INFO 26324 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T08:35:10.628-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T08:35:10.641-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T08:35:10.829-06:00  INFO 23428 --- [xmpp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-08T08:35:10.834-06:00  INFO 23428 --- [xmpp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-08T08:35:14.079-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T08:35:14.110-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T08:35:14.112-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T08:35:14.328-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T08:35:14.330-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3477 ms
+2024-08-08T08:35:15.350-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T08:35:15.438-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T08:35:15.470-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 6.041 seconds (process running for 7.145)
+2024-08-08T08:37:08.365-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-08T08:37:08.368-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-08T08:37:08.372-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-08T08:37:08.533-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-08T08:37:08.536-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T08:37:10.224-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/ea1be709-8c44-429c-ba0e-0f2298410232] (0)
+2024-08-08T08:37:10.233-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/ea1be709-8c44-429c-ba0e-0f2298410232] (0)
+2024-08-08T08:37:10.238-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T08:50:32.997-06:00  WARN 23428 --- [xmpp] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-08T08:51:37.409-06:00  WARN 23428 --- [xmpp] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-08T08:51:43.723-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T08:51:43.725-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T08:51:44.243-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/cb0845b2-350a-426b-b28f-3e55c9a64a1a] (1)
+2024-08-08T08:51:44.244-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/cb0845b2-350a-426b-b28f-3e55c9a64a1a] (1)
+2024-08-08T08:51:44.246-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T08:52:46.240-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T08:52:46.243-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T08:52:46.245-06:00  WARN 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-08T08:53:35.294-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: hola. To: alv21188-gajim@alumchat.lol
+2024-08-08T08:53:40.454-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T08:53:40.455-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T08:53:40.455-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [hola]
+2024-08-08T08:54:53.762-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: como estas. To: alv21188-gajim@alumchat.lol
+2024-08-08T08:55:00.914-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T08:55:00.915-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T08:55:00.915-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [hola, como estas]
+2024-08-08T09:02:47.746-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-08T09:02:47.997-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:02:48.000-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:02:49.573-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:02:49.758-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:02:49.800-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:02:50.069-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:02:50.070-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2064 ms
+2024-08-08T09:02:50.821-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:02:50.957-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:02:51.017-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 3.13 seconds (process running for 1662.692)
+2024-08-08T09:02:51.088-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:07:45.355-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-08-08T09:07:45.864-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:07:45.941-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:07:47.268-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:07:47.433-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:07:47.501-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:07:47.655-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:07:47.656-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1676 ms
+2024-08-08T09:07:49.266-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:07:49.286-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:07:49.295-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 3.709 seconds (process running for 1960.969)
+2024-08-08T09:07:49.354-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:07:53.847-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-08T09:07:54.245-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:07:54.267-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:07:55.133-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:07:55.170-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:07:55.177-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:07:55.251-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:07:55.251-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 963 ms
+2024-08-08T09:07:55.514-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:07:55.571-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:07:55.593-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.58 seconds (process running for 1967.267)
+2024-08-08T09:07:55.598-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:08:00.257-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-08-08T09:08:02.359-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:08:02.404-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:08:03.882-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:08:03.918-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:08:03.975-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:08:04.070-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:08:04.083-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2024-08-08T09:08:04.331-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:08:04.394-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:08:04.419-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 2.845 seconds (process running for 1976.093)
+2024-08-08T09:08:04.431-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:08:07.215-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:08:07.384-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:08:07.387-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:08:07.873-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:08:07.885-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:08:07.911-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:08:08.009-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:08:08.011-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2024-08-08T09:08:08.252-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:08:08.270-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:08:08.285-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.968 seconds (process running for 1979.959)
+2024-08-08T09:08:08.299-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:08:27.726-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-08T09:08:28.043-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:08:28.046-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:08:28.616-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:08:28.620-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:08:28.625-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:08:28.658-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:08:28.659-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2024-08-08T09:08:28.829-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:08:28.865-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:08:28.881-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.948 seconds (process running for 2000.555)
+2024-08-08T09:08:28.889-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:09:42.765-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:09:42.938-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:09:42.941-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:09:43.374-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:09:43.377-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:09:43.377-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:09:43.414-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:09:43.415-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 461 ms
+2024-08-08T09:09:43.540-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:09:43.557-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:09:43.568-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.69 seconds (process running for 2075.243)
+2024-08-08T09:09:43.586-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:09:53.240-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:09:53.510-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:09:53.517-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:09:54.267-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:09:54.331-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:09:54.345-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:09:54.504-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:09:54.624-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2024-08-08T09:09:55.082-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:09:55.101-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:09:55.105-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.75 seconds (process running for 2086.78)
+2024-08-08T09:09:55.107-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:12:11.363-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2024-08-08T09:12:11.657-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:12:11.663-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:12:12.516-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:12:12.543-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:12:12.548-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:12:12.603-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:12:12.605-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 937 ms
+2024-08-08T09:12:12.866-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:12:12.884-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:12:12.893-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.349 seconds (process running for 2224.567)
+2024-08-08T09:12:12.905-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:13:19.274-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2024-08-08T09:13:19.634-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:13:19.637-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:13:20.235-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:13:20.254-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:13:20.268-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:13:20.342-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:13:20.353-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 706 ms
+2024-08-08T09:13:20.557-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:13:20.580-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:13:20.584-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.033 seconds (process running for 2292.259)
+2024-08-08T09:13:20.586-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:14:36.521-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:14:36.879-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:14:36.882-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:14:37.711-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:14:37.745-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:14:37.784-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:14:37.873-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:14:37.915-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1019 ms
+2024-08-08T09:14:38.230-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:14:38.261-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:14:38.269-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.515 seconds (process running for 2369.944)
+2024-08-08T09:14:38.280-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:14:41.833-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:14:42.631-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:14:42.635-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:14:44.052-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:14:44.067-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:14:44.087-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:14:44.178-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:14:44.191-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1522 ms
+2024-08-08T09:14:44.379-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:14:44.417-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:14:44.428-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.928 seconds (process running for 2376.102)
+2024-08-08T09:14:44.448-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:15:01.437-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:15:01.911-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:15:01.918-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:15:02.507-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:15:02.515-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:15:02.530-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:15:02.569-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:15:02.573-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 648 ms
+2024-08-08T09:15:02.790-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:15:02.887-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:15:02.890-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.162 seconds (process running for 2394.564)
+2024-08-08T09:15:02.891-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:15:31.072-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-08-08T09:15:32.027-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:15:32.081-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:15:32.884-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:15:32.892-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:15:32.893-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:15:32.942-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:15:32.944-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
+2024-08-08T09:15:33.096-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:15:33.111-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:15:33.118-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.8 seconds (process running for 2424.793)
+2024-08-08T09:15:33.126-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:16:11.675-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:16:11.871-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:16:11.872-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:16:12.479-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:16:12.496-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:16:12.500-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:16:12.539-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:16:12.543-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 666 ms
+2024-08-08T09:16:12.692-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:16:12.710-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:16:12.722-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.919 seconds (process running for 2464.396)
+2024-08-08T09:16:12.724-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:16:25.526-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:16:25.806-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:16:25.811-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:16:26.500-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:16:26.511-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:16:26.519-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:16:26.601-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:16:26.610-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 794 ms
+2024-08-08T09:16:26.784-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:16:26.811-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:16:26.816-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.12 seconds (process running for 2478.49)
+2024-08-08T09:16:26.817-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:17:25.354-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:17:25.610-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:17:25.614-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:17:26.386-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:17:26.432-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:17:26.479-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:17:26.567-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:17:26.601-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 978 ms
+2024-08-08T09:17:26.800-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:17:26.825-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:17:26.833-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.349 seconds (process running for 2538.507)
+2024-08-08T09:17:26.839-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:17:39.010-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:17:39.345-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:17:39.369-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:17:40.007-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:17:40.039-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:17:40.072-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:17:40.133-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:17:40.134-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 748 ms
+2024-08-08T09:17:40.358-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:17:40.382-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:17:40.403-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.151 seconds (process running for 2552.077)
+2024-08-08T09:17:40.406-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:17:43.890-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-08T09:17:44.118-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:17:44.120-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:17:44.585-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:17:44.587-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:17:44.588-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:17:44.634-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:17:44.634-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 508 ms
+2024-08-08T09:17:44.752-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:17:44.763-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:17:44.768-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.729 seconds (process running for 2556.442)
+2024-08-08T09:17:44.773-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:17:53.639-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-08T09:17:53.640-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-08T09:17:53.641-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-08T09:17:58.568-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T09:17:58.569-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T09:17:59.086-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/87c11001-4a12-4479-85f7-2fa13cbcea09] (2)
+2024-08-08T09:17:59.093-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/87c11001-4a12-4479-85f7-2fa13cbcea09] (2)
+2024-08-08T09:17:59.095-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T09:18:03.243-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:18:03.244-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:18:03.245-06:00  WARN 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:18:13.456-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Holaa. To: alv21188-gajim@alumchat.lol
+2024-08-08T09:18:19.124-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:18:19.124-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:18:19.125-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@6b289d17]
+2024-08-08T09:27:00.275-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-08T09:27:00.532-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:27:00.540-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:27:00.930-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:27:00.933-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:27:00.934-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:27:00.982-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:27:00.983-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 433 ms
+2024-08-08T09:27:01.227-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:27:01.239-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:27:01.241-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.788 seconds (process running for 3112.916)
+2024-08-08T09:27:01.246-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:27:23.359-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-08T09:27:23.579-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 23428 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-08T09:27:23.597-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-08T09:27:24.229-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-08T09:27:24.245-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-08T09:27:24.251-06:00  INFO 23428 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-08T09:27:24.312-06:00  INFO 23428 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-08T09:27:24.333-06:00  INFO 23428 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 728 ms
+2024-08-08T09:27:24.480-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-08T09:27:24.518-06:00  INFO 23428 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-08T09:27:24.526-06:00  INFO 23428 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.03 seconds (process running for 3136.201)
+2024-08-08T09:27:24.546-06:00  INFO 23428 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-08T09:27:53.503-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-08T09:27:53.505-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-08T09:27:53.508-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-08T09:27:53.513-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T09:27:53.514-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T09:27:54.108-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1c228412-7b0c-42e6-befe-022a1b26ba81] (3)
+2024-08-08T09:27:54.110-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1c228412-7b0c-42e6-befe-022a1b26ba81] (3)
+2024-08-08T09:27:54.112-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T09:27:57.055-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:27:57.058-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:27:57.063-06:00  WARN 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:03.144-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Buenas a todos. To: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:06.230-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:06.230-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:06.231-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2]
+2024-08-08T09:28:23.402-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Todo bien?. To: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:26.819-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:26.823-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:28:26.830-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33]
+2024-08-08T09:38:46.757-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T09:38:46.759-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T09:38:47.382-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d227356c-084b-4bad-98ec-49250f782f92] (4)
+2024-08-08T09:38:47.383-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d227356c-084b-4bad-98ec-49250f782f92] (4)
+2024-08-08T09:38:47.384-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T09:38:51.450-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:38:51.495-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:38:51.500-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33]
+2024-08-08T09:39:11.471-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Siuu. To: alv21188-gajim@alumchat.lol
+2024-08-08T09:39:36.850-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T09:39:36.850-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T09:39:37.332-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/228f74b0-7db6-4ec4-a9a3-6cbafef68f62] (5)
+2024-08-08T09:39:37.334-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/228f74b0-7db6-4ec4-a9a3-6cbafef68f62] (5)
+2024-08-08T09:39:37.335-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T09:39:38.885-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:39:38.894-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:39:38.895-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T09:58:33.150-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T09:58:33.152-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T09:58:33.647-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f97f8f95-be4d-49f0-bfa0-97f8136894b7] (6)
+2024-08-08T09:58:33.650-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f97f8f95-be4d-49f0-bfa0-97f8136894b7] (6)
+2024-08-08T09:58:33.652-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T09:58:34.848-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T09:58:34.864-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T09:58:34.865-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:02:14.086-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:02:14.087-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:02:14.577-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7c2c0e87-2add-4584-8c39-b0f96c4a33e3] (7)
+2024-08-08T10:02:14.578-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7c2c0e87-2add-4584-8c39-b0f96c4a33e3] (7)
+2024-08-08T10:02:14.578-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:02:16.099-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:02:16.132-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:02:16.148-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:03:03.533-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:03:03.533-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:03:04.034-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/aea2e202-1508-4f3f-97d4-775fe9623232] (8)
+2024-08-08T10:03:04.035-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/aea2e202-1508-4f3f-97d4-775fe9623232] (8)
+2024-08-08T10:03:04.036-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:03:05.308-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:03:05.326-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:03:05.326-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:06:46.308-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:06:46.309-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:06:46.804-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/96ef9cd0-42f5-4a3b-8d4a-edb3db3e9b88] (9)
+2024-08-08T10:06:46.808-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/96ef9cd0-42f5-4a3b-8d4a-edb3db3e9b88] (9)
+2024-08-08T10:06:46.817-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:06:47.904-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:06:47.922-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:06:47.922-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:14:04.661-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:14:04.662-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:14:05.273-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/2c64b937-6618-425f-ad58-33ef2f8fe1a9] (10)
+2024-08-08T10:14:05.274-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/2c64b937-6618-425f-ad58-33ef2f8fe1a9] (10)
+2024-08-08T10:14:05.274-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:14:06.373-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:14:06.422-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:14:06.462-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:44:42.519-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:44:42.520-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:44:43.357-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1aaea49e-d416-4ed9-b59b-6c3bdf0bce29] (11)
+2024-08-08T10:44:43.361-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1aaea49e-d416-4ed9-b59b-6c3bdf0bce29] (11)
+2024-08-08T10:44:43.362-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:44:46.345-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:44:46.366-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:44:46.367-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:47:35.078-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:47:35.083-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:47:35.569-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/755ff95a-1a0a-4c27-a88b-c5ef12f31f72] (12)
+2024-08-08T10:47:35.570-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/755ff95a-1a0a-4c27-a88b-c5ef12f31f72] (12)
+2024-08-08T10:47:35.570-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:47:41.031-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:47:41.082-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:47:41.128-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:49:22.942-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:49:22.943-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:49:23.430-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1bcb9f0f-1b7c-45cc-8361-14e56e5f879d] (13)
+2024-08-08T10:49:23.431-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1bcb9f0f-1b7c-45cc-8361-14e56e5f879d] (13)
+2024-08-08T10:49:23.432-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:49:28.252-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:49:28.288-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:49:28.310-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:50:58.670-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:50:58.670-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:50:59.153-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/752e418d-ac63-483e-87bd-c87f9846c122] (14)
+2024-08-08T10:50:59.154-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/752e418d-ac63-483e-87bd-c87f9846c122] (14)
+2024-08-08T10:50:59.155-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:51:05.248-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:51:05.272-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:51:05.301-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T10:51:51.815-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T10:51:51.815-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T10:51:52.292-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d6bfd4b9-f456-402d-85c3-553464b7e959] (15)
+2024-08-08T10:51:52.293-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d6bfd4b9-f456-402d-85c3-553464b7e959] (15)
+2024-08-08T10:51:52.294-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T10:51:57.792-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T10:51:57.798-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T10:51:57.799-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8]
+2024-08-08T11:03:01.593-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Registering user: alv21188-test
+2024-08-08T11:05:08.058-06:00  INFO 23428 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test@alumchat.lol: Que dice master. To: alv21188-gajim@alumchat.lol
+2024-08-08T11:05:23.815-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:05:23.816-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:05:24.314-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/24f1c023-87b5-4122-8cf8-04dbc10ecf21] (17)
+2024-08-08T11:05:24.317-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/24f1c023-87b5-4122-8cf8-04dbc10ecf21] (17)
+2024-08-08T11:05:24.319-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:05:25.865-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:05:25.873-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:05:25.876-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:32:21.968-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:32:21.971-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:32:22.540-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d887b389-3161-499a-a3a4-5a8c49059f26] (18)
+2024-08-08T11:32:22.541-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d887b389-3161-499a-a3a4-5a8c49059f26] (18)
+2024-08-08T11:32:22.541-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:32:25.877-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:32:25.886-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:32:25.887-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:33:27.727-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:33:27.727-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:33:28.213-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3dd378b8-3cbf-41b0-ab8d-2c93ae00ce73] (19)
+2024-08-08T11:33:28.214-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3dd378b8-3cbf-41b0-ab8d-2c93ae00ce73] (19)
+2024-08-08T11:33:28.214-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:33:29.860-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:33:29.866-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:33:29.870-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:34:07.432-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:34:07.432-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:34:07.918-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/08be0506-c396-4acc-9cb6-95cee237b2b0] (20)
+2024-08-08T11:34:07.920-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/08be0506-c396-4acc-9cb6-95cee237b2b0] (20)
+2024-08-08T11:34:07.921-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:34:09.321-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:34:09.323-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:34:09.332-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:35:39.907-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:35:40.460-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:35:40.952-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/83082dd3-36ca-4a10-8f86-5b03a97a2f8f] (21)
+2024-08-08T11:35:40.952-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/83082dd3-36ca-4a10-8f86-5b03a97a2f8f] (21)
+2024-08-08T11:35:40.953-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:35:42.286-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:35:42.316-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:35:42.322-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:44:20.133-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/d6bfd4b9-f456-402d-85c3-553464b7e959] (15) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/d6bfd4b9-f456-402d-85c3-553464b7e959] (15) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,8846]
+Message: Connection reset
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,8846]
+Message: Connection reset
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:647) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T11:50:55.910-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:50:55.916-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:50:56.405-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09f3bda7-3266-488c-9d8a-fff4841bda55] (22)
+2024-08-08T11:50:56.408-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09f3bda7-3266-488c-9d8a-fff4841bda55] (22)
+2024-08-08T11:50:56.409-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:50:57.921-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:50:57.931-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:50:57.932-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:53:21.489-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:53:21.490-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:53:21.978-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/429e7f46-a2b7-465d-bbd0-dc9952c89cf4] (23)
+2024-08-08T11:53:21.979-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/429e7f46-a2b7-465d-bbd0-dc9952c89cf4] (23)
+2024-08-08T11:53:21.979-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:53:23.437-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:53:23.439-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:53:23.439-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T11:54:59.709-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T11:54:59.709-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T11:55:00.184-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/72a03634-6a70-4175-8d47-3627eeb254e6] (24)
+2024-08-08T11:55:00.185-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/72a03634-6a70-4175-8d47-3627eeb254e6] (24)
+2024-08-08T11:55:00.186-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T11:55:01.489-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T11:55:01.501-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T11:55:01.502-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:08:57.849-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:08:57.854-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:08:57.858-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:21:59.561-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:21:59.562-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:22:00.056-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/62230387-e85f-41b6-8416-e0eb7eb5461c] (25)
+2024-08-08T12:22:00.073-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/62230387-e85f-41b6-8416-e0eb7eb5461c] (25)
+2024-08-08T12:22:00.074-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:22:01.572-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:22:01.573-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:22:01.574-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:23:27.072-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:23:27.073-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:23:27.557-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/358ad8b1-71da-4776-b4cf-c3e349d2ca5c] (26)
+2024-08-08T12:23:27.558-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/358ad8b1-71da-4776-b4cf-c3e349d2ca5c] (26)
+2024-08-08T12:23:27.559-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:23:29.904-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:23:29.923-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:23:29.924-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:24:38.926-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:24:38.927-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:24:39.411-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d3ae32a9-19ed-4bbc-ae22-77f7d81a5fea] (27)
+2024-08-08T12:24:39.418-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d3ae32a9-19ed-4bbc-ae22-77f7d81a5fea] (27)
+2024-08-08T12:24:39.419-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:24:41.473-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:24:41.482-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:24:41.485-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:26:38.862-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:26:38.864-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:26:39.342-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6d1fb9f8-f61b-4d20-9eb8-8fd775e00103] (28)
+2024-08-08T12:26:39.343-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6d1fb9f8-f61b-4d20-9eb8-8fd775e00103] (28)
+2024-08-08T12:26:39.345-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:26:41.012-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:26:41.130-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:26:41.134-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:29:03.496-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:29:03.497-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:29:04.141-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/c1bc5184-8675-4319-9bdf-af77207e7289] (29)
+2024-08-08T12:29:04.142-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/c1bc5184-8675-4319-9bdf-af77207e7289] (29)
+2024-08-08T12:29:04.143-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:29:13.540-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:29:13.563-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:29:13.564-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:31:41.058-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:31:41.067-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:31:41.077-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:31:48.210-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:31:48.214-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:31:48.223-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:48:18.186-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:48:18.187-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:48:18.666-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9c63b6c1-5c46-42ab-ae54-66241236ea88] (30)
+2024-08-08T12:48:18.667-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9c63b6c1-5c46-42ab-ae54-66241236ea88] (30)
+2024-08-08T12:48:18.667-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:48:20.070-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:48:20.105-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:48:20.113-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:50:00.825-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:50:00.828-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:50:01.330-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/083855ba-8b16-40f1-8a1c-8d10d5aa041b] (31)
+2024-08-08T12:50:01.331-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/083855ba-8b16-40f1-8a1c-8d10d5aa041b] (31)
+2024-08-08T12:50:01.331-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:50:03.548-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:50:03.572-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:50:03.575-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:51:11.146-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:51:11.147-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:51:11.637-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/06456511-8c1c-41d7-8b4d-bc352388ef1a] (32)
+2024-08-08T12:51:11.638-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/06456511-8c1c-41d7-8b4d-bc352388ef1a] (32)
+2024-08-08T12:51:11.638-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:51:12.883-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:51:12.906-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:51:12.908-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:55:30.214-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:55:30.217-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:55:39.991-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:55:40.000-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:55:41.796-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/cc07a5a7-c84a-4dd2-98e8-061340f22778] (34)
+2024-08-08T12:55:41.796-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/cc07a5a7-c84a-4dd2-98e8-061340f22778] (34)
+2024-08-08T12:55:41.797-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:55:41.796-06:00 ERROR 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection failed: 
+
+org.jivesoftware.smack.SmackException$AlreadyLoggedInException: Client is already logged in
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection.throwAlreadyLoggedInExceptionIfAppropriate(XMPPTCPConnection.java:363) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.AbstractXMPPConnection.login(AbstractXMPPConnection.java:637) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.AbstractXMPPConnection.login(AbstractXMPPConnection.java:598) ~[smack-core-4.4.3.jar:4.4.3]
+	at com.xmpp.demo.controller.XMPPController.connect(XMPPController.java:73) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-08-08T12:55:49.582-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:55:49.583-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:55:50.164-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/524edefa-f292-4b06-b21f-78161fd454aa] (35)
+2024-08-08T12:55:50.164-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/524edefa-f292-4b06-b21f-78161fd454aa] (35)
+2024-08-08T12:55:50.165-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:55:52.957-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:55:52.963-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:55:52.966-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T12:58:56.207-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T12:58:56.213-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T12:58:56.695-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6c169cc0-4b4a-4787-8f51-9e714cff0dd2] (36)
+2024-08-08T12:58:56.696-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6c169cc0-4b4a-4787-8f51-9e714cff0dd2] (36)
+2024-08-08T12:58:56.697-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T12:58:58.385-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T12:58:58.430-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T12:58:58.455-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T13:00:28.365-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T13:00:28.366-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T13:00:28.845-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/dcb2aa8c-5040-45b4-bb68-eed924958d27] (37)
+2024-08-08T13:00:28.846-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/dcb2aa8c-5040-45b4-bb68-eed924958d27] (37)
+2024-08-08T13:00:28.847-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T13:00:30.227-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T13:00:30.259-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T13:00:30.263-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T13:01:09.559-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T13:01:09.560-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T13:01:10.039-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/0031e7cb-005a-469c-809e-4e51744bf3fb] (38)
+2024-08-08T13:01:10.043-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/0031e7cb-005a-469c-809e-4e51744bf3fb] (38)
+2024-08-08T13:01:10.044-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T13:01:11.992-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T13:01:12.028-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T13:01:12.059-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T13:04:44.782-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T13:04:44.783-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T13:04:45.255-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a8aca285-759e-4433-a06f-1cdc593cbe4f] (39)
+2024-08-08T13:04:45.256-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a8aca285-759e-4433-a06f-1cdc593cbe4f] (39)
+2024-08-08T13:04:45.256-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T13:04:46.589-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T13:04:46.613-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T13:04:46.616-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T13:07:08.294-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T13:07:08.295-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T13:07:08.892-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6ab3239f-88cd-4492-b1db-fbfb2ca2f225] (40)
+2024-08-08T13:07:08.893-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6ab3239f-88cd-4492-b1db-fbfb2ca2f225] (40)
+2024-08-08T13:07:08.894-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T13:07:10.101-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T13:07:10.117-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T13:07:10.123-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T13:08:57.897-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/6c169cc0-4b4a-4787-8f51-9e714cff0dd2] (36) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/6c169cc0-4b4a-4787-8f51-9e714cff0dd2] (36) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15050]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15050]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.910-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/1aaea49e-d416-4ed9-b59b-6c3bdf0bce29] (11) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/1aaea49e-d416-4ed9-b59b-6c3bdf0bce29] (11) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,23319]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,23319]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.901-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/6d1fb9f8-f61b-4d20-9eb8-8fd775e00103] (28) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/6d1fb9f8-f61b-4d20-9eb8-8fd775e00103] (28) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16704]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16704]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.920-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/cc07a5a7-c84a-4dd2-98e8-061340f22778] (34) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/cc07a5a7-c84a-4dd2-98e8-061340f22778] (34) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15050]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15050]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.926-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/c1bc5184-8675-4319-9bdf-af77207e7289] (29) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/c1bc5184-8675-4319-9bdf-af77207e7289] (29) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16703]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16703]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.929-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/429e7f46-a2b7-465d-bbd0-dc9952c89cf4] (23) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/429e7f46-a2b7-465d-bbd0-dc9952c89cf4] (23) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,18349]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,18349]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.929-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/228f74b0-7db6-4ec4-a9a3-6cbafef68f62] (5) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/228f74b0-7db6-4ec4-a9a3-6cbafef68f62] (5) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,26402]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,26402]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.939-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/1c228412-7b0c-42e6-befe-022a1b26ba81] (3) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/1c228412-7b0c-42e6-befe-022a1b26ba81] (3) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,27625]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,27625]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.941-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/358ad8b1-71da-4776-b4cf-c3e349d2ca5c] (26) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/358ad8b1-71da-4776-b4cf-c3e349d2ca5c] (26) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16702]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16702]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.929-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/d227356c-084b-4bad-98ec-49250f782f92] (4) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/d227356c-084b-4bad-98ec-49250f782f92] (4) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,26610]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,26610]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.941-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/72a03634-6a70-4175-8d47-3627eeb254e6] (24) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/72a03634-6a70-4175-8d47-3627eeb254e6] (24) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,18352]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,18352]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.938-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/cb0845b2-350a-426b-b28f-3e55c9a64a1a] (1) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/cb0845b2-350a-426b-b28f-3e55c9a64a1a] (1) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,30382]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,30382]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.957-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/83082dd3-36ca-4a10-8f86-5b03a97a2f8f] (21) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/83082dd3-36ca-4a10-8f86-5b03a97a2f8f] (21) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19481]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19481]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.959-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/1bcb9f0f-1b7c-45cc-8361-14e56e5f879d] (13) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/1bcb9f0f-1b7c-45cc-8361-14e56e5f879d] (13) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,22761]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,22761]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.961-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/3dd378b8-3cbf-41b0-ab8d-2c93ae00ce73] (19) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/3dd378b8-3cbf-41b0-ab8d-2c93ae00ce73] (19) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19482]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19482]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.961-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/06456511-8c1c-41d7-8b4d-bc352388ef1a] (32) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/06456511-8c1c-41d7-8b4d-bc352388ef1a] (32) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15359]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15359]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.967-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/09f3bda7-3266-488c-9d8a-fff4841bda55] (22) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/09f3bda7-3266-488c-9d8a-fff4841bda55] (22) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,18658]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,18658]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.970-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/752e418d-ac63-483e-87bd-c87f9846c122] (14) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/752e418d-ac63-483e-87bd-c87f9846c122] (14) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,22763]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,22763]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.972-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/0031e7cb-005a-469c-809e-4e51744bf3fb] (38) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/0031e7cb-005a-469c-809e-4e51744bf3fb] (38) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14712]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14712]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.984-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/6ab3239f-88cd-4492-b1db-fbfb2ca2f225] (40) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/6ab3239f-88cd-4492-b1db-fbfb2ca2f225] (40) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14532]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14532]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.973-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/2c64b937-6618-425f-ad58-33ef2f8fe1a9] (10) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/2c64b937-6618-425f-ad58-33ef2f8fe1a9] (10) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,24751]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,24751]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.973-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/7c2c0e87-2add-4584-8c39-b0f96c4a33e3] (7) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/7c2c0e87-2add-4584-8c39-b0f96c4a33e3] (7) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,25238]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,25238]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.974-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/755ff95a-1a0a-4c27-a88b-c5ef12f31f72] (12) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/755ff95a-1a0a-4c27-a88b-c5ef12f31f72] (12) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,22758]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,22758]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.974-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/524edefa-f292-4b06-b21f-78161fd454aa] (35) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/524edefa-f292-4b06-b21f-78161fd454aa] (35) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15050]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15050]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.974-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/d887b389-3161-499a-a3a4-5a8c49059f26] (18) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/d887b389-3161-499a-a3a4-5a8c49059f26] (18) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19482]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19482]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.974-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/9c63b6c1-5c46-42ab-ae54-66241236ea88] (30) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/9c63b6c1-5c46-42ab-ae54-66241236ea88] (30) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15359]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15359]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.974-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/083855ba-8b16-40f1-8a1c-8d10d5aa041b] (31) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/083855ba-8b16-40f1-8a1c-8d10d5aa041b] (31) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15358]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,15358]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.975-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[not-authenticated] (33) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[not-authenticated] (33) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,1584]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,1584]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.978-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/d3ae32a9-19ed-4bbc-ae22-77f7d81a5fea] (27) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/d3ae32a9-19ed-4bbc-ae22-77f7d81a5fea] (27) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16704]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,16704]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.979-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/aea2e202-1508-4f3f-97d4-775fe9623232] (8) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/aea2e202-1508-4f3f-97d4-775fe9623232] (8) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,25238]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,25238]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.986-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/87c11001-4a12-4479-85f7-2fa13cbcea09] (2) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/87c11001-4a12-4479-85f7-2fa13cbcea09] (2) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,27921]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,27921]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.988-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/96ef9cd0-42f5-4a3b-8d4a-edb3db3e9b88] (9) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/96ef9cd0-42f5-4a3b-8d4a-edb3db3e9b88] (9) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,24756]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,24756]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.991-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/dcb2aa8c-5040-45b4-bb68-eed924958d27] (37) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/dcb2aa8c-5040-45b4-bb68-eed924958d27] (37) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14898]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14898]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.991-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/a8aca285-759e-4433-a06f-1cdc593cbe4f] (39) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/a8aca285-759e-4433-a06f-1cdc593cbe4f] (39) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14712]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,14712]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.992-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/08be0506-c396-4acc-9cb6-95cee237b2b0] (20) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/08be0506-c396-4acc-9cb6-95cee237b2b0] (20) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19484]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19484]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.993-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/62230387-e85f-41b6-8416-e0eb7eb5461c] (25) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/62230387-e85f-41b6-8416-e0eb7eb5461c] (25) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,17009]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,17009]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.995-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-test2@alumchat.lol/ea1be709-8c44-429c-ba0e-0f2298410232] (0) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-test2@alumchat.lol/ea1be709-8c44-429c-ba0e-0f2298410232] (0) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19421]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,19421]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:57.997-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/f97f8f95-be4d-49f0-bfa0-97f8136894b7] (6) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/f97f8f95-be4d-49f0-bfa0-97f8136894b7] (6) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,25578]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,25578]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:08:58.006-06:00  WARN 23428 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/24f1c023-87b5-4122-8cf8-04dbc10ecf21] (17) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/24f1c023-87b5-4122-8cf8-04dbc10ecf21] (17) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,21338]
+Message: XML document structures must start and end within the same entity.
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,21338]
+Message: XML document structures must start and end within the same entity.
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:652) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-08T13:11:12.635-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T13:11:12.636-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T13:11:13.135-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b00dc8c0-80ea-429a-89b9-47d9677a6dd2] (41)
+2024-08-08T13:11:13.136-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b00dc8c0-80ea-429a-89b9-47d9677a6dd2] (41)
+2024-08-08T13:11:13.136-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T13:11:16.412-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T13:11:16.427-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T13:11:16.436-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T13:12:18.608-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-08T13:12:18.609-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-08T13:12:19.092-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f3df2456-d8d2-43a0-bd4f-5e36377706c7] (42)
+2024-08-08T13:12:19.092-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f3df2456-d8d2-43a0-bd4f-5e36377706c7] (42)
+2024-08-08T13:12:19.093-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-08T13:12:20.019-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-08T13:12:20.036-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-08T13:12:20.036-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
+2024-08-08T15:20:25.511-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)

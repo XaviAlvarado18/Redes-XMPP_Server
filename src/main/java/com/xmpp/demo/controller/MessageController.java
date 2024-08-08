@@ -38,37 +38,34 @@ public class MessageController {
 		// Estructura de datos para almacenar los mensajes en memoria
 	    private Map<String, List<String>> userMessages = new ConcurrentHashMap<>();
 	
-	 	@CrossOrigin(origins = "http://localhost:4200")
-	    @GetMapping("/get-messages")
-	    public Map<String, Object> getMessages(HttpSession session) {
-	        Map<String, Object> response = new HashMap<>();
-
-	        connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
-
-	        if (connection == null) {
-	            response.put("status", "no connection found in session");
-	            return response;
-	        }
-
-	       // List<String> messages = new ArrayList<>();
-	        try {
-	            // Aquí debes implementar la lógica para obtener los mensajes dirigidos al usuario
-	            // Esto podría depender de cómo estás almacenando los mensajes (en memoria, en una base de datos, etc.)
-	            // Este es solo un ejemplo simple
-	        	String username = connection.getUser().asEntityBareJidString();
-
-	        	logger.info("Este es: {}", username);
-	            // Obtener los mensajes almacenados para el usuario
-	        	List<String> messages = messageService.getMessages(username);
-	            response.put("messages", messages);
-	        } catch (Exception e) {
-	            logger.error("Failed to get messages", e);
-	            response.put("status", "error");
-	            response.put("error", e.getMessage());
-	        }
-
-	        return response;
-	    }
+		@CrossOrigin(origins = "http://localhost:4200")
+		@GetMapping("/get-messages")
+		public Map<String, Object> getMessages(HttpSession session) {
+			Map<String, Object> response = new HashMap<>();
+		
+			connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+		
+			if (connection == null) {
+				response.put("status", "no connection found in session");
+				return response;
+			}
+		
+			try {
+				String username = connection.getUser().asEntityBareJidString();
+		
+				logger.info("Este es: {}", username);
+		
+				List<MessageXMPP> messages = messageService.getMessages(username);
+				response.put("messages", messages);
+			} catch (Exception e) {
+				logger.error("Failed to get messages", e);
+				response.put("status", "error");
+				response.put("error", e.getMessage());
+			}
+		
+			return response;
+		}
+		
 	 	
 	 	
 	 	@CrossOrigin(origins = "http://localhost:4200")
