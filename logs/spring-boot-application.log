@@ -1783,3 +1783,543 @@ Message: XML document structures must start and end within the same entity.
 2024-08-08T13:12:20.036-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
 2024-08-08T13:12:20.036-06:00  INFO 23428 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@65406fa2, com.xmpp.demo.controller.MessageXMPP@2c5e2f33, com.xmpp.demo.controller.MessageXMPP@2299d4c8, com.xmpp.demo.controller.MessageXMPP@4dca13d3]
 2024-08-08T15:20:25.511-06:00  INFO 23428 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-11T18:57:49.213-06:00  INFO 14912 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 14912 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-08-11T18:57:49.215-06:00  INFO 14912 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-11T18:57:49.273-06:00  INFO 14912 --- [xmpp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-11T18:57:49.274-06:00  INFO 14912 --- [xmpp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-11T18:57:50.107-06:00  INFO 14912 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-11T18:57:50.122-06:00  INFO 14912 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-11T18:57:50.122-06:00  INFO 14912 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-11T18:57:50.172-06:00  INFO 14912 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-11T18:57:50.173-06:00  INFO 14912 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 899 ms
+2024-08-11T18:57:50.545-06:00  INFO 14912 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-11T18:57:50.574-06:00  INFO 14912 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-11T18:57:50.580-06:00  INFO 14912 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.675 seconds (process running for 2.383)
+2024-08-11T18:58:18.387-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-11T18:58:18.388-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-11T18:58:18.389-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-11T19:05:18.931-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:05:18.935-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:05:19.892-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a9beb240-dda3-4bd7-8eb1-b057265317eb] (0)
+2024-08-11T19:05:19.894-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a9beb240-dda3-4bd7-8eb1-b057265317eb] (0)
+2024-08-11T19:05:19.896-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:05:29.683-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:05:29.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:05:29.685-06:00  WARN 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:07:35.829-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Hola. To: alv21188-gajim@alumchat.lol
+2024-08-11T19:07:45.460-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:07:45.461-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a9beb240-dda3-4bd7-8eb1-b057265317eb] (0)
+2024-08-11T19:07:45.461-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:07:45.538-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:07:48.653-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:07:48.654-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:07:49.232-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/5db4d6e1-cb34-4bec-afe3-6a7acbeec27a] (1)
+2024-08-11T19:07:49.233-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/5db4d6e1-cb34-4bec-afe3-6a7acbeec27a] (1)
+2024-08-11T19:07:49.233-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:07:49.245-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:07:49.246-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/5db4d6e1-cb34-4bec-afe3-6a7acbeec27a] (1)
+2024-08-11T19:07:49.246-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:07:49.385-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:07:59.042-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:07:59.042-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:07:59.586-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7e7b9d1c-4749-4621-92cc-8f19765f554a] (2)
+2024-08-11T19:07:59.586-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7e7b9d1c-4749-4621-92cc-8f19765f554a] (2)
+2024-08-11T19:07:59.586-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:08:02.833-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:08:02.835-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:08:02.835-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:16:43.710-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:16:43.711-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:16:44.319-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/97e70cf5-08a0-428d-93a6-7c0fa321b183] (3)
+2024-08-11T19:16:44.319-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/97e70cf5-08a0-428d-93a6-7c0fa321b183] (3)
+2024-08-11T19:16:44.319-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:16:47.271-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:16:47.273-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:16:47.273-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:17:56.183-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:17:56.184-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/97e70cf5-08a0-428d-93a6-7c0fa321b183] (3)
+2024-08-11T19:17:56.184-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:17:56.264-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:18:37.413-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:18:37.413-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:18:37.987-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/82d8900f-d546-444a-b66f-cddce82f13df] (4)
+2024-08-11T19:18:37.987-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/82d8900f-d546-444a-b66f-cddce82f13df] (4)
+2024-08-11T19:18:37.987-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:18:39.487-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:18:39.488-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:18:39.489-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:19:08.711-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:19:08.712-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/82d8900f-d546-444a-b66f-cddce82f13df] (4)
+2024-08-11T19:19:08.712-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:19:08.789-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:19:21.697-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:19:21.698-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:19:22.266-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3a6e9a7c-6138-4f45-abd2-5810b16e8e7b] (5)
+2024-08-11T19:19:22.266-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3a6e9a7c-6138-4f45-abd2-5810b16e8e7b] (5)
+2024-08-11T19:19:22.266-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:19:23.604-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:19:23.604-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:19:23.604-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:20:05.867-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:20:05.867-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3a6e9a7c-6138-4f45-abd2-5810b16e8e7b] (5)
+2024-08-11T19:20:05.867-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:20:05.944-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:20:16.825-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:20:16.826-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:20:17.394-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/dc3581ef-ec91-4cc8-8dc9-faf7e9b20a6f] (6)
+2024-08-11T19:20:17.394-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/dc3581ef-ec91-4cc8-8dc9-faf7e9b20a6f] (6)
+2024-08-11T19:20:17.394-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:20:18.738-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:20:18.738-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:20:18.738-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:20:43.535-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:20:43.535-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/dc3581ef-ec91-4cc8-8dc9-faf7e9b20a6f] (6)
+2024-08-11T19:20:43.535-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:20:43.612-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:21:14.248-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:21:14.249-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:21:14.820-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09c3499c-7809-4d20-8f99-174537c326c7] (7)
+2024-08-11T19:21:14.820-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09c3499c-7809-4d20-8f99-174537c326c7] (7)
+2024-08-11T19:21:14.820-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:21:15.856-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:21:15.856-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:21:15.856-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:22:44.367-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:22:44.368-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09c3499c-7809-4d20-8f99-174537c326c7] (7)
+2024-08-11T19:22:44.368-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:22:44.448-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:27:04.463-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:27:04.464-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:27:05.013-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4ac036a9-a4e1-45a4-9ef6-c9d417c6ed91] (8)
+2024-08-11T19:27:05.013-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4ac036a9-a4e1-45a4-9ef6-c9d417c6ed91] (8)
+2024-08-11T19:27:05.013-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:27:06.212-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:27:06.213-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:27:06.213-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:33:57.601-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:33:57.602-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:33:58.145-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9d49d1ae-8b41-405f-931b-d9951283b87b] (9)
+2024-08-11T19:33:58.145-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9d49d1ae-8b41-405f-931b-d9951283b87b] (9)
+2024-08-11T19:33:58.145-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:33:59.236-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:33:59.236-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:33:59.236-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:35:22.155-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:35:22.156-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:35:22.792-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b6f6dd29-a01f-4fdf-b3a9-f233f96b32cb] (10)
+2024-08-11T19:35:22.792-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b6f6dd29-a01f-4fdf-b3a9-f233f96b32cb] (10)
+2024-08-11T19:35:22.792-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:35:23.705-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:35:23.705-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:35:23.706-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:38:38.465-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:38:38.466-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b6f6dd29-a01f-4fdf-b3a9-f233f96b32cb] (10)
+2024-08-11T19:38:38.466-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:38:38.543-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:38:44.240-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:38:44.240-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:38:44.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d49b05a7-85f2-4eea-9406-09daf106ce63] (11)
+2024-08-11T19:38:44.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d49b05a7-85f2-4eea-9406-09daf106ce63] (11)
+2024-08-11T19:38:44.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:38:46.329-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:38:46.330-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:38:46.330-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:40:48.813-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:40:48.814-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/d49b05a7-85f2-4eea-9406-09daf106ce63] (11)
+2024-08-11T19:40:48.814-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:40:48.891-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:41:06.229-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:41:06.230-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:41:06.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/409d5192-877e-476c-907b-4b73a5945de9] (12)
+2024-08-11T19:41:06.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/409d5192-877e-476c-907b-4b73a5945de9] (12)
+2024-08-11T19:41:06.796-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:41:07.758-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:41:07.758-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:41:07.758-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:44:28.430-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:44:28.430-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/409d5192-877e-476c-907b-4b73a5945de9] (12)
+2024-08-11T19:44:28.431-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:44:28.521-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:44:34.526-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:44:34.526-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:44:35.085-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/76a3520a-4d1f-43a4-8635-c67d984633b4] (13)
+2024-08-11T19:44:35.085-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/76a3520a-4d1f-43a4-8635-c67d984633b4] (13)
+2024-08-11T19:44:35.085-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:44:36.411-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:44:36.411-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:44:36.411-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:48:55.934-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:48:55.935-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/76a3520a-4d1f-43a4-8635-c67d984633b4] (13)
+2024-08-11T19:48:55.935-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:48:56.017-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:49:34.750-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:49:34.751-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:49:35.667-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3e13c134-63c5-4b61-bd72-41b342ff74ef] (14)
+2024-08-11T19:49:35.667-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/3e13c134-63c5-4b61-bd72-41b342ff74ef] (14)
+2024-08-11T19:49:35.667-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:49:37.510-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:49:37.510-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:49:37.510-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:51:45.281-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:51:45.282-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:51:45.843-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/681da4bf-0ceb-42e4-8230-6e0559e11799] (15)
+2024-08-11T19:51:45.844-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/681da4bf-0ceb-42e4-8230-6e0559e11799] (15)
+2024-08-11T19:51:45.844-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:51:46.794-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:51:46.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:51:46.795-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:54:51.358-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:54:51.358-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:54:51.978-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/fa082b95-84ec-4533-a336-7e8ad657f6e3] (16)
+2024-08-11T19:54:51.979-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/fa082b95-84ec-4533-a336-7e8ad657f6e3] (16)
+2024-08-11T19:54:51.979-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:54:52.828-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:54:52.828-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:54:52.829-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:55:16.802-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:55:16.803-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/fa082b95-84ec-4533-a336-7e8ad657f6e3] (16)
+2024-08-11T19:55:16.803-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:55:16.882-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T19:55:24.670-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:55:24.670-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:55:25.242-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/0b932d8e-009d-4dad-84e4-55635eb08fb5] (17)
+2024-08-11T19:55:25.242-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/0b932d8e-009d-4dad-84e4-55635eb08fb5] (17)
+2024-08-11T19:55:25.242-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:55:26.354-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:55:26.354-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:55:26.354-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea]
+2024-08-11T19:59:34.251-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Como estas. To: alv21188-gajim@alumchat.lol
+2024-08-11T19:59:46.804-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T19:59:46.804-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T19:59:47.358-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/10c429bb-051a-42a0-95cf-be7c46de6ce1] (18)
+2024-08-11T19:59:47.359-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/10c429bb-051a-42a0-95cf-be7c46de6ce1] (18)
+2024-08-11T19:59:47.359-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T19:59:48.828-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T19:59:48.829-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T19:59:48.829-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe]
+2024-08-11T20:00:38.575-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:38.576-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/10c429bb-051a-42a0-95cf-be7c46de6ce1] (18)
+2024-08-11T20:00:38.576-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:38.654-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:00:40.121-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Todo bien. To: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:44.383-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:00:44.383-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:00:44.949-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a314ac37-abb8-40c3-925e-7873b0f00967] (19)
+2024-08-11T20:00:44.949-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a314ac37-abb8-40c3-925e-7873b0f00967] (19)
+2024-08-11T20:00:44.949-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:00:44.961-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:44.961-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a314ac37-abb8-40c3-925e-7873b0f00967] (19)
+2024-08-11T20:00:44.961-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:45.104-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:00:52.223-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:00:52.223-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:00:52.769-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a75b97a0-81f3-4ee9-b142-93fa5cafa597] (20)
+2024-08-11T20:00:52.769-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a75b97a0-81f3-4ee9-b142-93fa5cafa597] (20)
+2024-08-11T20:00:52.769-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:00:53.846-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:53.846-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:00:53.846-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:05:39.593-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:05:39.594-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a75b97a0-81f3-4ee9-b142-93fa5cafa597] (20)
+2024-08-11T20:05:39.594-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:05:39.675-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:05:45.683-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:05:45.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:05:46.274-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/69c53ad2-7b20-4b32-a4d0-9433d93d1d5b] (21)
+2024-08-11T20:05:46.274-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/69c53ad2-7b20-4b32-a4d0-9433d93d1d5b] (21)
+2024-08-11T20:05:46.274-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:05:47.429-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:05:47.430-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:05:47.430-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:09:41.883-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:09:41.883-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:09:42.451-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/52850ae2-b858-47d7-b75b-12e29c18df61] (22)
+2024-08-11T20:09:42.451-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/52850ae2-b858-47d7-b75b-12e29c18df61] (22)
+2024-08-11T20:09:42.452-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:09:43.594-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:09:43.594-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:09:43.594-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:13:09.176-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:13:09.176-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/52850ae2-b858-47d7-b75b-12e29c18df61] (22)
+2024-08-11T20:13:09.176-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:13:09.370-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:14:04.092-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:14:04.092-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:14:04.683-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f00680f9-aa41-421d-a934-5d8e9f48eea0] (23)
+2024-08-11T20:14:04.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f00680f9-aa41-421d-a934-5d8e9f48eea0] (23)
+2024-08-11T20:14:04.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:14:05.906-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:14:05.906-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:14:05.906-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:19:25.437-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:19:25.438-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:19:26.039-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b75b76a1-7071-4794-84f7-971b0cad44fb] (24)
+2024-08-11T20:19:26.039-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b75b76a1-7071-4794-84f7-971b0cad44fb] (24)
+2024-08-11T20:19:26.039-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:19:28.032-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:19:28.032-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:19:28.033-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:20:13.858-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:20:13.858-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b75b76a1-7071-4794-84f7-971b0cad44fb] (24)
+2024-08-11T20:20:13.858-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:20:13.936-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:20:39.806-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:20:39.806-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:20:40.367-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/ce4cafe5-ea28-4d4a-b9a5-9a96244f322f] (25)
+2024-08-11T20:20:40.367-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/ce4cafe5-ea28-4d4a-b9a5-9a96244f322f] (25)
+2024-08-11T20:20:40.367-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:20:42.718-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:20:42.718-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:20:42.718-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:23:28.369-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:23:28.369-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/ce4cafe5-ea28-4d4a-b9a5-9a96244f322f] (25)
+2024-08-11T20:23:28.369-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:23:28.447-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:24:18.778-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:24:18.778-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:24:19.329-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b5c634e4-1bfc-4fde-bbce-6c605666f905] (26)
+2024-08-11T20:24:19.330-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b5c634e4-1bfc-4fde-bbce-6c605666f905] (26)
+2024-08-11T20:24:19.330-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:24:21.147-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:24:21.148-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:24:21.148-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:27:44.640-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:27:44.641-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b5c634e4-1bfc-4fde-bbce-6c605666f905] (26)
+2024-08-11T20:27:44.641-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:27:44.727-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:28:00.072-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:28:00.072-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:28:00.628-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/12f82b06-86c0-442b-bd54-31bf2d04dfe7] (27)
+2024-08-11T20:28:00.628-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/12f82b06-86c0-442b-bd54-31bf2d04dfe7] (27)
+2024-08-11T20:28:00.628-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:28:01.494-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:28:01.495-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:28:01.495-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T20:29:08.633-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:29:08.635-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/12f82b06-86c0-442b-bd54-31bf2d04dfe7] (27)
+2024-08-11T20:29:08.635-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:29:08.719-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T20:29:17.650-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T20:29:17.651-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T20:29:18.213-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/bd7e2a61-bf4f-4c60-9769-4c0017b77699] (28)
+2024-08-11T20:29:18.213-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/bd7e2a61-bf4f-4c60-9769-4c0017b77699] (28)
+2024-08-11T20:29:18.213-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T20:29:19.177-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T20:29:19.177-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T20:29:19.177-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290]
+2024-08-11T21:11:38.978-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from gue21008test1@alumchat.lol: ola. To: alv21188-gajim@alumchat.lol
+2024-08-11T21:16:06.922-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-11T21:16:06.923-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:16:07.487-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/ded4bb9d-7bf3-45ba-b8fb-66bdc0238156] (29)
+2024-08-11T21:16:07.487-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/ded4bb9d-7bf3-45ba-b8fb-66bdc0238156] (29)
+2024-08-11T21:16:07.487-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:16:28.000-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-tes@alumchat.lol: Hola
+2024-08-11T21:17:01.340-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:17:01.340-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/ded4bb9d-7bf3-45ba-b8fb-66bdc0238156] (29)
+2024-08-11T21:17:01.340-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-test2@alumchat.lol
+2024-08-11T21:17:01.340-06:00  WARN 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol not connected or invalid user
+2024-08-11T21:17:15.196-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-test2@alumchat.lol
+2024-08-11T21:17:15.197-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/ded4bb9d-7bf3-45ba-b8fb-66bdc0238156] (29)
+2024-08-11T21:17:15.197-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-test2@alumchat.lol
+2024-08-11T21:17:15.291-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : User alv21188-test2@alumchat.lol disconnected successfully
+2024-08-11T21:18:01.054-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-11T21:18:01.054-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:18:01.601-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/82c14c60-090d-4339-b840-2cac36ebf3ee] (30)
+2024-08-11T21:18:01.601-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/82c14c60-090d-4339-b840-2cac36ebf3ee] (30)
+2024-08-11T21:18:01.602-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:18:09.741-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-gajim@alumchat.lol: Hola
+2024-08-11T21:19:31.163-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-11T21:19:31.164-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:19:31.715-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/2d70d8e3-857f-46ad-96dc-657276291804] (31)
+2024-08-11T21:19:31.715-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/2d70d8e3-857f-46ad-96dc-657276291804] (31)
+2024-08-11T21:19:31.715-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:19:33.903-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-test2@alumchat.lol
+2024-08-11T21:19:33.903-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-test2@alumchat.lol
+2024-08-11T21:19:33.903-06:00  WARN 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-test2@alumchat.lol
+2024-08-11T21:19:46.686-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:19:46.686-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:19:47.219-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/318ff8f0-2285-408c-9891-4999a09a7bb4] (32)
+2024-08-11T21:19:47.219-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/318ff8f0-2285-408c-9891-4999a09a7bb4] (32)
+2024-08-11T21:19:47.219-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:19:48.485-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:19:48.485-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:19:48.485-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:21:52.122-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:21:52.123-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/318ff8f0-2285-408c-9891-4999a09a7bb4] (32)
+2024-08-11T21:21:52.123-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:21:52.204-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:22:03.687-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:22:03.687-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:22:04.236-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1beef83f-6c60-44b3-b71a-f7489c94fe72] (33)
+2024-08-11T21:22:04.236-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1beef83f-6c60-44b3-b71a-f7489c94fe72] (33)
+2024-08-11T21:22:04.236-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:22:05.360-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:22:05.360-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:22:05.360-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:22:34.980-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:22:34.980-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/1beef83f-6c60-44b3-b71a-f7489c94fe72] (33)
+2024-08-11T21:22:34.980-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:22:35.053-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:23:11.875-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:23:11.875-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:23:12.449-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4a4f99d4-97e9-4f82-ac81-2cd68690840e] (34)
+2024-08-11T21:23:12.450-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4a4f99d4-97e9-4f82-ac81-2cd68690840e] (34)
+2024-08-11T21:23:12.450-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:23:17.621-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:23:17.621-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:23:17.622-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:23:27.323-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: Hola chaval
+2024-08-11T21:23:27.399-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: Hola chaval. To: alv21188-test2@alumchat.lol
+2024-08-11T21:24:56.211-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:24:56.212-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:24:56.774-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/44f13cd7-5712-4ede-a403-fbd8359ac3e4] (35)
+2024-08-11T21:24:56.774-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/44f13cd7-5712-4ede-a403-fbd8359ac3e4] (35)
+2024-08-11T21:24:56.774-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:24:58.188-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:24:58.188-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:24:58.188-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:25:17.702-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: Todo bien
+2024-08-11T21:25:17.780-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: Todo bien. To: alv21188-test2@alumchat.lol
+2024-08-11T21:25:27.787-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:25:27.787-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/44f13cd7-5712-4ede-a403-fbd8359ac3e4] (35)
+2024-08-11T21:25:27.787-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:25:27.878-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:28:33.376-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:28:33.377-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:28:33.910-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/2a015f85-4e6f-4429-9c3b-ec197e3831fd] (36)
+2024-08-11T21:28:33.910-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/2a015f85-4e6f-4429-9c3b-ec197e3831fd] (36)
+2024-08-11T21:28:33.910-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:28:35.245-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:28:35.245-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:28:35.245-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:28:44.442-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: Pruebas
+2024-08-11T21:28:44.516-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: Pruebas. To: alv21188-test2@alumchat.lol
+2024-08-11T21:39:44.918-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:39:44.918-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:39:45.459-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9b2f447c-5185-46d8-bea7-26a98037ec86] (37)
+2024-08-11T21:39:45.459-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9b2f447c-5185-46d8-bea7-26a98037ec86] (37)
+2024-08-11T21:39:45.459-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:39:46.344-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:39:46.344-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:39:46.344-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:39:56.089-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: Todo bien pa
+2024-08-11T21:39:56.167-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: Todo bien pa. To: alv21188-test2@alumchat.lol
+2024-08-11T21:41:27.157-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:41:27.157-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/9b2f447c-5185-46d8-bea7-26a98037ec86] (37)
+2024-08-11T21:41:27.157-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:41:27.237-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:41:36.524-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:41:36.524-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:41:37.070-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4a4d10fd-346c-496a-afea-2e28d67e9c03] (38)
+2024-08-11T21:41:37.070-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4a4d10fd-346c-496a-afea-2e28d67e9c03] (38)
+2024-08-11T21:41:37.070-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:41:38.231-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:41:38.231-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:41:38.231-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:41:58.496-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: testing
+2024-08-11T21:41:58.571-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: testing. To: alv21188-test2@alumchat.lol
+2024-08-11T21:42:54.728-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:42:54.729-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4a4d10fd-346c-496a-afea-2e28d67e9c03] (38)
+2024-08-11T21:42:54.729-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:42:54.806-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:43:01.564-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:43:01.564-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:43:02.104-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/509a4641-d924-4bb5-8e19-fe815f38f930] (39)
+2024-08-11T21:43:02.104-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/509a4641-d924-4bb5-8e19-fe815f38f930] (39)
+2024-08-11T21:43:02.104-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:43:02.881-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:43:02.881-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:43:02.881-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:43:07.420-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: somes
+2024-08-11T21:43:07.493-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: somes. To: alv21188-test2@alumchat.lol
+2024-08-11T21:43:36.274-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:43:36.274-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/509a4641-d924-4bb5-8e19-fe815f38f930] (39)
+2024-08-11T21:43:36.274-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:43:36.366-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:43:42.264-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:43:42.264-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:43:42.822-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4f78adcb-1577-4802-943a-830bf451617e] (40)
+2024-08-11T21:43:42.822-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4f78adcb-1577-4802-943a-830bf451617e] (40)
+2024-08-11T21:43:42.822-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:43:43.817-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:43:43.818-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:43:43.818-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:43:48.931-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: moree
+2024-08-11T21:43:49.008-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: moree. To: alv21188-test2@alumchat.lol
+2024-08-11T21:44:29.953-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:44:29.954-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:44:30.505-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4079ca0a-b7bc-4cd5-9c45-6b5741b3b3f8] (41)
+2024-08-11T21:44:30.506-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4079ca0a-b7bc-4cd5-9c45-6b5741b3b3f8] (41)
+2024-08-11T21:44:30.506-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:44:32.030-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:44:32.030-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:44:32.030-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:44:41.845-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test2@alumchat.lol: creo que estoy haciendo muchas sesiones
+2024-08-11T21:44:41.925-06:00  INFO 14912 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-gajim@alumchat.lol: creo que estoy haciendo muchas sesiones. To: alv21188-test2@alumchat.lol
+2024-08-11T21:44:45.333-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:44:45.333-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/4079ca0a-b7bc-4cd5-9c45-6b5741b3b3f8] (41)
+2024-08-11T21:44:45.333-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:44:45.416-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:48:31.094-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:48:31.094-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:48:31.659-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7f85504c-25f2-4637-bb15-8bfbf0d5e8ac] (42)
+2024-08-11T21:48:31.659-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7f85504c-25f2-4637-bb15-8bfbf0d5e8ac] (42)
+2024-08-11T21:48:31.659-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:48:32.787-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:48:32.787-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:48:32.787-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:55:13.534-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:55:13.534-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/7f85504c-25f2-4637-bb15-8bfbf0d5e8ac] (42)
+2024-08-11T21:55:13.534-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:55:13.629-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:57:31.623-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:57:31.623-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:57:32.165-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09fa7167-e781-442c-900b-daa04836f875] (43)
+2024-08-11T21:57:32.165-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09fa7167-e781-442c-900b-daa04836f875] (43)
+2024-08-11T21:57:32.165-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:57:33.286-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:57:33.286-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:57:33.286-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T21:57:55.848-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:57:55.848-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/09fa7167-e781-442c-900b-daa04836f875] (43)
+2024-08-11T21:57:55.848-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:57:55.931-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T21:58:03.098-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T21:58:03.098-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T21:58:03.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6a7904a8-d0ff-4b9a-a07d-f08c44eb5ded] (44)
+2024-08-11T21:58:03.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6a7904a8-d0ff-4b9a-a07d-f08c44eb5ded] (44)
+2024-08-11T21:58:03.684-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T21:58:05.153-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T21:58:05.153-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T21:58:05.153-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T22:01:40.737-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-11T22:01:40.738-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/6a7904a8-d0ff-4b9a-a07d-f08c44eb5ded] (44)
+2024-08-11T22:01:40.738-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-11T22:01:40.814-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-11T22:01:46.827-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T22:01:46.827-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T22:01:47.437-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/e0bd542c-d7b1-4c95-9d1f-f8cae2e388d9] (45)
+2024-08-11T22:01:47.437-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/e0bd542c-d7b1-4c95-9d1f-f8cae2e388d9] (45)
+2024-08-11T22:01:47.437-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T22:01:48.568-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T22:01:48.568-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T22:01:48.568-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T22:09:06.810-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T22:09:06.811-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T22:09:07.343-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/00fc89c9-b074-43a1-be03-a47610c7e84b] (46)
+2024-08-11T22:09:07.343-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/00fc89c9-b074-43a1-be03-a47610c7e84b] (46)
+2024-08-11T22:09:07.344-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T22:09:08.670-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T22:09:08.670-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T22:09:08.670-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T22:09:18.538-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T22:09:18.538-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T22:09:18.538-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-11T22:10:28.000-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-11T22:10:28.001-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-11T22:10:28.544-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/54ac6721-f0d5-48eb-afce-ddafea0326f8] (47)
+2024-08-11T22:10:28.544-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/54ac6721-f0d5-48eb-afce-ddafea0326f8] (47)
+2024-08-11T22:10:28.544-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-11T22:10:29.726-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-11T22:10:29.726-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-11T22:10:29.726-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
