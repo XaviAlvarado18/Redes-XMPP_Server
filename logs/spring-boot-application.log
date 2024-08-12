@@ -2323,3 +2323,367 @@ Message: XML document structures must start and end within the same entity.
 2024-08-11T22:10:29.726-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
 2024-08-11T22:10:29.726-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
 2024-08-11T22:10:29.726-06:00  INFO 14912 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@2a3076ea, com.xmpp.demo.controller.MessageXMPP@21039dfe, com.xmpp.demo.controller.MessageXMPP@6f57e290, com.xmpp.demo.controller.MessageXMPP@39809dc1]
+2024-08-12T13:20:07.822-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T13:20:07.835-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T13:20:08.032-06:00  INFO 15568 --- [xmpp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-12T13:20:08.035-06:00  INFO 15568 --- [xmpp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-12T13:20:12.584-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T13:20:12.621-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T13:20:12.628-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T13:20:12.880-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-12T13:20:12.932-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4887 ms
+2024-08-12T13:20:14.188-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-12T13:20:14.288-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T13:20:14.360-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 7.749 seconds (process running for 8.997)
+2024-08-12T13:21:11.759-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12T13:21:11.760-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-12T13:21:11.774-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-12T13:21:11.923-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T13:21:11.926-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T13:21:13.662-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/96a1dd71-0bb3-49c4-8826-d2a3a2e8db1d] (0)
+2024-08-12T13:21:13.682-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/96a1dd71-0bb3-49c4-8826-d2a3a2e8db1d] (0)
+2024-08-12T13:21:13.692-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T13:21:15.561-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T13:21:15.581-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:21:15.593-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:21:19.740-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:21:19.741-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/96a1dd71-0bb3-49c4-8826-d2a3a2e8db1d] (0)
+2024-08-12T13:21:19.742-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:21:19.817-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-12T13:22:47.071-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T13:22:47.072-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T13:22:47.548-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/12a6e1f1-d8a5-4db0-bca7-5dd1d85038c0] (1)
+2024-08-12T13:22:47.550-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/12a6e1f1-d8a5-4db0-bca7-5dd1d85038c0] (1)
+2024-08-12T13:22:47.550-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T13:22:50.017-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test@alumchat.lol: Hola. To: alv21188-gajim@alumchat.lol
+2024-08-12T13:22:56.176-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T13:22:56.179-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:22:56.180-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@28a0c077]
+2024-08-12T13:23:14.963-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Sent message to alv21188-test@alumchat.lol: Todo bien
+2024-08-12T13:23:47.259-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: clear. To: alv21188-gajim@alumchat.lol
+2024-08-12T13:23:52.956-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:23:52.957-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/12a6e1f1-d8a5-4db0-bca7-5dd1d85038c0] (1)
+2024-08-12T13:23:52.958-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:23:53.028-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-12T13:23:55.510-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T13:23:55.516-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T13:23:56.029-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f196cc9e-9ff3-40eb-ad49-59bc6266326c] (2)
+2024-08-12T13:23:56.031-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f196cc9e-9ff3-40eb-ad49-59bc6266326c] (2)
+2024-08-12T13:23:56.031-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T13:23:56.042-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:23:56.066-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/f196cc9e-9ff3-40eb-ad49-59bc6266326c] (2)
+2024-08-12T13:23:56.072-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:23:56.171-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-12T13:24:03.618-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T13:24:03.621-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T13:24:04.093-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/e0268907-6717-475c-bbe8-f31ef8510f06] (3)
+2024-08-12T13:24:04.094-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/e0268907-6717-475c-bbe8-f31ef8510f06] (3)
+2024-08-12T13:24:04.096-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T13:24:05.491-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T13:24:05.506-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T13:24:05.508-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@28a0c077, com.xmpp.demo.controller.MessageXMPP@1cb65f27]
+2024-08-12T14:21:29.372-06:00  WARN 15568 --- [xmpp] [XMPPTCPConnection[alv21188-gajim@alumchat.lol/e0268907-6717-475c-bbe8-f31ef8510f06] (3) callConnectionClosedOnErrorListener()] o.j.smack.AbstractXMPPConnection         : Connection XMPPTCPConnection[alv21188-gajim@alumchat.lol/e0268907-6717-475c-bbe8-f31ef8510f06] (3) closed with error
+
+org.jivesoftware.smack.xml.XmlPullParserException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,4714]
+Message: Connection reset
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:193) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.parsePackets(XMPPTCPConnection.java:1140) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader.access$700(XMPPTCPConnection.java:913) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.tcp.XMPPTCPConnection$PacketReader$1.run(XMPPTCPConnection.java:936) ~[smack-tcp-4.4.3.jar:4.4.3]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[1,4714]
+Message: Connection reset
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:647) ~[na:na]
+	at org.jivesoftware.smack.xml.stax.StaxXmlPullParser.next(StaxXmlPullParser.java:191) ~[smack-xmlparser-stax-4.4.3.jar:4.4.3]
+	... 4 common frames omitted
+
+2024-08-12T14:46:11.835-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:46:11.839-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection: null
+2024-08-12T14:46:11.840-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : No connection found in session for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:46:25.275-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T14:46:25.275-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T14:46:25.913-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/940c5002-840c-40bf-a562-04e1925ae09e] (4)
+2024-08-12T14:46:25.914-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/940c5002-840c-40bf-a562-04e1925ae09e] (4)
+2024-08-12T14:46:25.915-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T14:46:40.297-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:46:40.298-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:46:40.298-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@28a0c077, com.xmpp.demo.controller.MessageXMPP@1cb65f27]
+2024-08-12T14:49:23.722-06:00  INFO 15568 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-12T14:49:24.932-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T14:49:25.032-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T14:49:26.263-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T14:49:26.278-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T14:49:26.280-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T14:49:26.497-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-12T14:49:26.643-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2024-08-12T14:49:27.947-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-12T14:49:28.019-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T14:49:28.057-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 3.721 seconds (process running for 5362.693)
+2024-08-12T14:49:28.079-06:00  INFO 15568 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-12T14:49:29.615-06:00  INFO 15568 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-12T14:49:30.355-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T14:49:30.380-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T14:49:31.411-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T14:49:31.459-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T14:49:31.506-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T14:49:31.724-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-12T14:49:31.728-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1334 ms
+2024-08-12T14:49:32.133-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-12T14:49:32.233-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T14:49:32.319-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 2.214 seconds (process running for 5366.956)
+2024-08-12T14:49:32.889-06:00  INFO 15568 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-12T14:49:46.110-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12T14:49:46.111-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-12T14:49:46.113-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-12T14:51:22.287-06:00  INFO 15568 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-12T14:51:22.552-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T14:51:22.558-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T14:51:23.209-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T14:51:23.214-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T14:51:23.215-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T14:51:23.307-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-12T14:51:23.321-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2024-08-12T14:51:23.423-06:00  WARN 15568 --- [xmpp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'messageController' method 
+com.xmpp.demo.controller.MessageController#getMessages(HttpSession)
+to {GET [/xmpp/get-messages]}: There is already 'messageController' bean method
+com.xmpp.demo.controller.MessageController#getMessagesBySender(String, HttpSession) mapped.
+2024-08-12T14:51:23.426-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-12T14:51:23.439-06:00  INFO 15568 --- [xmpp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12T14:51:23.490-06:00 ERROR 15568 --- [xmpp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'messageController' method 
+com.xmpp.demo.controller.MessageController#getMessages(HttpSession)
+to {GET [/xmpp/get-messages]}: There is already 'messageController' bean method
+com.xmpp.demo.controller.MessageController#getMessagesBySender(String, HttpSession) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.xmpp.demo.XmppApplication.main(XmppApplication.java:15) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'messageController' method 
+com.xmpp.demo.controller.MessageController#getMessages(HttpSession)
+to {GET [/xmpp/get-messages]}: There is already 'messageController' bean method
+com.xmpp.demo.controller.MessageController#getMessagesBySender(String, HttpSession) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 19 common frames omitted
+
+2024-08-12T14:51:25.014-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T14:51:25.016-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T14:51:25.601-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T14:51:25.607-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T14:51:25.609-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T14:51:25.676-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-12T14:51:25.677-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2024-08-12T14:51:25.774-06:00  WARN 15568 --- [xmpp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'messageController' method 
+com.xmpp.demo.controller.MessageController#getMessages(HttpSession)
+to {GET [/xmpp/get-messages]}: There is already 'messageController' bean method
+com.xmpp.demo.controller.MessageController#getMessagesBySender(String, HttpSession) mapped.
+2024-08-12T14:51:25.786-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-12T14:51:25.796-06:00  INFO 15568 --- [xmpp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12T14:51:25.842-06:00 ERROR 15568 --- [xmpp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'messageController' method 
+com.xmpp.demo.controller.MessageController#getMessages(HttpSession)
+to {GET [/xmpp/get-messages]}: There is already 'messageController' bean method
+com.xmpp.demo.controller.MessageController#getMessagesBySender(String, HttpSession) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.xmpp.demo.XmppApplication.main(XmppApplication.java:15) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'messageController' method 
+com.xmpp.demo.controller.MessageController#getMessages(HttpSession)
+to {GET [/xmpp/get-messages]}: There is already 'messageController' bean method
+com.xmpp.demo.controller.MessageController#getMessagesBySender(String, HttpSession) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 19 common frames omitted
+
+2024-08-12T14:51:52.238-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T14:51:52.239-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T14:51:53.446-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T14:51:53.467-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T14:51:53.481-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T14:51:53.560-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-12T14:51:53.566-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1309 ms
+2024-08-12T14:51:54.133-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-12T14:51:54.149-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T14:51:54.154-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.989 seconds (process running for 5508.791)
+2024-08-12T14:51:54.156-06:00  INFO 15568 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-12T14:52:12.095-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12T14:52:12.096-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-12T14:52:12.097-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-12T14:52:12.101-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T14:52:12.102-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T14:52:12.588-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a7f689db-69a5-4038-b2a4-ba4ec1837129] (5)
+2024-08-12T14:52:12.589-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a7f689db-69a5-4038-b2a4-ba4ec1837129] (5)
+2024-08-12T14:52:12.591-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T14:52:46.612-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:52:46.613-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:52:46.613-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:05.921-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: cd. To: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:09.429-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:09.430-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:09.431-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:19.355-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:19.358-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection: null
+2024-08-12T14:53:19.359-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : No connection found in session for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:27.411-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T14:53:27.412-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T14:53:27.886-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/19136e20-3737-4025-b931-703b36a5da38] (6)
+2024-08-12T14:53:27.887-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/19136e20-3737-4025-b931-703b36a5da38] (6)
+2024-08-12T14:53:27.888-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T14:53:28.873-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:28.877-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:28.898-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:33.653-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T14:53:33.653-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T14:53:34.237-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/560d0819-b0f3-42a4-b4af-f0c63a88dfff] (7)
+2024-08-12T14:53:34.238-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/560d0819-b0f3-42a4-b4af-f0c63a88dfff] (7)
+2024-08-12T14:53:34.239-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T14:53:38.840-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:38.841-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:38.841-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:42.439-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: aaa. To: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:44.670-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:44.672-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:53:44.673-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@349a0900]
+2024-08-12T14:53:59.456-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test@alumchat.lol: hola. To: alv21188-gajim@alumchat.lol
+2024-08-12T14:54:02.395-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:54:02.395-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:54:02.396-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@349a0900, com.xmpp.demo.controller.MessageXMPP@12c91e49]
+2024-08-12T14:54:35.514-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'senderUsername' for method parameter type String is not present]
+2024-08-12T14:57:55.138-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:57:55.140-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:57:55.142-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@349a0900, com.xmpp.demo.controller.MessageXMPP@12c91e49]
+2024-08-12T14:58:09.274-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:58:09.274-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:58:09.275-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@349a0900, com.xmpp.demo.controller.MessageXMPP@12c91e49]
+2024-08-12T14:58:22.628-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'senderUsername' for method parameter type String is not present]
+2024-08-12T14:59:55.562-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T14:59:55.564-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T14:59:55.564-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@349a0900, com.xmpp.demo.controller.MessageXMPP@12c91e49]
+2024-08-12T15:01:55.061-06:00  INFO 15568 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-12T15:01:55.418-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T15:01:55.424-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T15:01:56.135-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T15:01:56.180-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T15:01:56.221-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T15:01:56.373-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-12T15:01:56.405-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 971 ms
+2024-08-12T15:01:56.689-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-12T15:01:56.723-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T15:01:56.751-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.512 seconds (process running for 6111.389)
+2024-08-12T15:01:56.771-06:00  INFO 15568 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-12T15:02:03.606-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12T15:02:03.606-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-12T15:02:03.607-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-12T15:02:03.612-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T15:02:03.615-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T15:02:04.116-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a2cf67bd-9526-479d-b163-a092910d3efb] (8)
+2024-08-12T15:02:04.119-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/a2cf67bd-9526-479d-b163-a092910d3efb] (8)
+2024-08-12T15:02:04.120-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T15:02:08.115-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:08.116-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:08.116-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:12.472-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test@alumchat.lol: aaa. To: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:15.223-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:15.224-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:15.224-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@409c13d9]
+2024-08-12T15:02:22.035-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: Hello. To: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:24.573-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:24.574-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:02:24.575-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@409c13d9, com.xmpp.demo.controller.MessageXMPP@4ca952ac]
+2024-08-12T15:02:55.234-06:00  INFO 15568 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-12T15:02:55.690-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 15568 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-12T15:02:55.705-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-12T15:02:56.408-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-12T15:02:56.417-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-12T15:02:56.417-06:00  INFO 15568 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12T15:02:56.455-06:00  INFO 15568 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-12T15:02:56.456-06:00  INFO 15568 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 733 ms
+2024-08-12T15:02:56.780-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-12T15:02:56.809-06:00  INFO 15568 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-12T15:02:56.819-06:00  INFO 15568 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.298 seconds (process running for 6171.456)
+2024-08-12T15:02:56.824-06:00  INFO 15568 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-12T15:03:11.586-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12T15:03:11.591-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-12T15:03:11.609-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-12T15:03:23.321-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-12T15:03:23.325-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-12T15:03:23.824-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b9fd717d-e07b-4f21-8253-5787e1802045] (9)
+2024-08-12T15:03:23.825-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/b9fd717d-e07b-4f21-8253-5787e1802045] (9)
+2024-08-12T15:03:23.826-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-12T15:03:27.741-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:27.742-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:27.744-06:00  WARN 15568 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:32.025-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test2@alumchat.lol: que pasa. To: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:49.481-06:00  INFO 15568 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message from alv21188-test@alumchat.lol: xd. To: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:53.034-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:53.035-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:03:53.036-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@44448549, com.xmpp.demo.controller.MessageXMPP@4a8363b1]
+2024-08-12T15:04:06.843-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:04:06.844-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:04:06.845-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@44448549, com.xmpp.demo.controller.MessageXMPP@4a8363b1]
+2024-08-12T15:04:11.733-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-12T15:04:11.735-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-12T15:04:11.735-06:00  INFO 15568 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Messages for user alv21188-gajim@alumchat.lol: [com.xmpp.demo.controller.MessageXMPP@44448549, com.xmpp.demo.controller.MessageXMPP@4a8363b1]

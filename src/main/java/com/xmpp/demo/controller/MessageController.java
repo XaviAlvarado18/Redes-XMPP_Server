@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,6 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/xmpp")
@@ -65,7 +67,41 @@ public class MessageController {
 		
 			return response;
 		}
-		
+
+		@CrossOrigin(origins = "http://localhost:4200")
+		@GetMapping("/get-messages-user")
+		public Map<String, Object> getMessagesBySender(
+				@RequestParam("senderUsername") String senderUsername,
+				HttpSession session) {
+			Map<String, Object> response = new HashMap<>();
+
+			connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+			if (connection == null) {
+				response.put("status", "no connection found in session");
+				return response;
+			}
+
+			try {
+				String username = connection.getUser().asEntityBareJidString();
+
+				logger.info("Este es: {}", username);
+
+				// Filtrar mensajes por el remitente
+				List<MessageXMPP> allMessages = messageService.getMessages(username);
+				List<MessageXMPP> filteredMessages = allMessages.stream()
+						.filter(message -> message.getSender().equals(senderUsername))
+						.collect(Collectors.toList());
+
+				response.put("messages", filteredMessages);
+			} catch (Exception e) {
+				logger.error("Failed to get messages", e);
+				response.put("status", "error");
+				response.put("error", e.getMessage());
+			}
+
+			return response;
+		}		
 	 	
 	 	
 	 	@CrossOrigin(origins = "http://localhost:4200")
