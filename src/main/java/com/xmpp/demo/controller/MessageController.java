@@ -101,6 +101,8 @@ public class MessageController {
 		                                   message.getRecipient().equals(senderUsername))
 		                .collect(Collectors.toList());
 
+				logger.info("MyMessages: {}", myMessages);
+
 		        // Combinar ambas listas
 		        List<MessageXMPP> combinedMessages = new ArrayList<>();
 		        combinedMessages.addAll(messagesFromSender);

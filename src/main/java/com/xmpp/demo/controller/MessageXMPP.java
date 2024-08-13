@@ -7,10 +7,11 @@ public class MessageXMPP {
     private String recipient;
 
 
-    public MessageXMPP(String text, String sender, String date_msg) {
+    public MessageXMPP(String text, String sender, String date_msg, String recipient) {
         this.text = text;
         this.sender = sender;
         this.date_msg = date_msg;
+        this.recipient = recipient;
     }
 
     // Getters y setters
