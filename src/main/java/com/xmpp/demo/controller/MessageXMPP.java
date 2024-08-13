@@ -4,6 +4,8 @@ public class MessageXMPP {
     private String text;
     private String sender;
     private String date_msg;
+    private String recipient;
+
 
     public MessageXMPP(String text, String sender, String date_msg) {
         this.text = text;
@@ -18,6 +20,14 @@ public class MessageXMPP {
 
     public void setText(String text) {
         this.text = text;
+    }
+    
+    public String getRecipient() {
+        return recipient;
+    }
+
+    public void setRecipient(String recipient) {
+        this.recipient = recipient;
     }
 
     public String getSender() {

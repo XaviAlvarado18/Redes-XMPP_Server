@@ -71,37 +71,50 @@ public class MessageController {
 		@CrossOrigin(origins = "http://localhost:4200")
 		@GetMapping("/get-messages-user")
 		public Map<String, Object> getMessagesBySender(
-				@RequestParam("senderUsername") String senderUsername,
-				HttpSession session) {
-			Map<String, Object> response = new HashMap<>();
+		        @RequestParam("senderUsername") String senderUsername,
+		        HttpSession session) {
+		    Map<String, Object> response = new HashMap<>();
 
-			connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+		    connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
 
-			if (connection == null) {
-				response.put("status", "no connection found in session");
-				return response;
-			}
+		    if (connection == null) {
+		        response.put("status", "no connection found in session");
+		        return response;
+		    }
 
-			try {
-				String username = connection.getUser().asEntityBareJidString();
+		    try {
+		        String username = connection.getUser().asEntityBareJidString();
 
-				logger.info("Este es: {}", username);
+		        logger.info("Este es: {}", username);
 
-				// Filtrar mensajes por el remitente
-				List<MessageXMPP> allMessages = messageService.getMessages(username);
-				List<MessageXMPP> filteredMessages = allMessages.stream()
-						.filter(message -> message.getSender().equals(senderUsername))
-						.collect(Collectors.toList());
+		        // Obtener todos los mensajes
+		        List<MessageXMPP> allMessages = messageService.getMessages(username);
 
-				response.put("messages", filteredMessages);
-			} catch (Exception e) {
-				logger.error("Failed to get messages", e);
-				response.put("status", "error");
-				response.put("error", e.getMessage());
-			}
+		        // Filtrar mensajes recibidos del usuario ingresado
+		        List<MessageXMPP> messagesFromSender = allMessages.stream()
+		                .filter(message -> message.getSender().equals(senderUsername))
+		                .collect(Collectors.toList());
 
-			return response;
-		}		
+		        // Filtrar mensajes que yo envié al usuario ingresado
+		        List<MessageXMPP> myMessages = allMessages.stream()
+		                .filter(message -> message.getSender().equals(username) && 
+		                                   message.getRecipient().equals(senderUsername))
+		                .collect(Collectors.toList());
+
+		        // Combinar ambas listas
+		        List<MessageXMPP> combinedMessages = new ArrayList<>();
+		        combinedMessages.addAll(messagesFromSender);
+		        combinedMessages.addAll(myMessages);
+
+		        response.put("messages", combinedMessages);
+		    } catch (Exception e) {
+		        logger.error("Failed to get messages", e);
+		        response.put("status", "error");
+		        response.put("error", e.getMessage());
+		    }
+
+		    return response;
+		}	
 	 	
 	 	
 	 	@CrossOrigin(origins = "http://localhost:4200")
