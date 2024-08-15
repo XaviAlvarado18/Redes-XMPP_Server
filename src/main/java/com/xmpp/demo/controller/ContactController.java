@@ -47,7 +47,7 @@ public class ContactController {
 
             logger.info("Getting contacts for: {}", username);
 
-            List<String> contacts = contactService.getContacts(username, connection);
+            List<ContactXMPP> contacts = contactService.getContacts(username, connection);
             response.put("contacts", contacts);
         } catch (Exception e) {
             logger.error("Failed to get contacts", e);
@@ -57,4 +57,5 @@ public class ContactController {
 
         return response;
     }
+
 }
