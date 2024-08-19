@@ -5,6 +5,8 @@ import org.jivesoftware.smack.packet.Presence;
 import org.jivesoftware.smack.roster.Roster;
 import org.jivesoftware.smack.roster.RosterEntry;
 import org.jivesoftware.smack.roster.RosterGroup;
+import org.jivesoftware.smackx.vcardtemp.VCardManager;
+import org.jivesoftware.smackx.vcardtemp.packet.VCard;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -31,6 +33,8 @@ public class ContactService {
                 // Ensure the roster is loaded
                 roster.reloadAndWait();
 
+                VCardManager vCardManager = VCardManager.getInstanceFor(connection);
+                
              // Get all entries in the roster
                 for (RosterEntry entry : roster.getEntries()) {
                     Jid jid = entry.getJid();
@@ -53,7 +57,11 @@ public class ContactService {
                             status = isAvailable ? "Disponible" : "Desconectado";
                         }
                         
-                        logger.info("Presence is available: {}", presence.isAvailable());
+                        // Obtener información adicional usando vCard
+                        VCard vCard = vCardManager.loadVCard(bareJid);
+                        String phoneNumber = vCard.getField("TEL"); // O el campo correspondiente en vCard
+                        
+                        logger.info("phone number: {}", phoneNumber);
                         
                         contactsList.add(new ContactXMPP(contactUsername, status, fullName));
                     }
