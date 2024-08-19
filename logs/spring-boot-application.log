@@ -594,3 +594,195 @@ java.lang.ClassCastException: class java.util.HashSet cannot be cast to class ja
 2024-08-18T21:48:25.206-06:00  INFO 16756 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2024-08-18T21:48:25.208-06:00  INFO 16756 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.212 seconds (process running for 2833.32)
 2024-08-18T21:48:25.209-06:00  INFO 16756 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-18T21:48:36.659-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-18T21:48:36.659-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-18T21:48:36.660-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-18T21:48:36.662-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test3
+2024-08-18T21:48:36.662-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-18T21:48:37.233-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test3@alumchat.lol/a115689c-fae9-4ea9-90d1-3020260ed147] (13)
+2024-08-18T21:48:37.235-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test3@alumchat.lol/a115689c-fae9-4ea9-90d1-3020260ed147] (13)
+2024-08-18T21:48:37.236-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-18T21:48:41.372-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Obtaining roster for user: alv21188-test2
+2024-08-18T21:48:41.374-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Constructed JID: alv21188-test2@alumchat.lol
+2024-08-18T21:48:41.374-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Existing contacts count: 1
+2024-08-18T21:48:41.374-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Checking entry: alv21188-test2alumchat.lol
+2024-08-18T21:48:41.374-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Adding user alv21188-test2 to contacts.
+2024-08-18T21:48:41.463-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : User alv21188-test2 added successfully.
+2024-08-18T22:01:32.295-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-18T22:01:32.295-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-18T22:01:32.865-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/696df34f-5e2c-4d15-83fc-a7a9ab368477] (14)
+2024-08-18T22:01:32.865-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/696df34f-5e2c-4d15-83fc-a7a9ab368477] (14)
+2024-08-18T22:01:32.865-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-18T22:01:32.870-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-test2@alumchat.lol
+2024-08-18T22:01:32.870-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/696df34f-5e2c-4d15-83fc-a7a9ab368477] (14)
+2024-08-18T22:01:32.870-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-test2@alumchat.lol
+2024-08-18T22:01:33.020-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-6] c.xmpp.demo.controller.XMPPController    : User alv21188-test2@alumchat.lol disconnected successfully
+2024-08-18T22:01:47.053-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-18T22:01:47.053-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-18T22:01:47.596-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/749cdd8c-df27-4f9d-abab-16986e91c3cf] (15)
+2024-08-18T22:01:47.596-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/749cdd8c-df27-4f9d-abab-16986e91c3cf] (15)
+2024-08-18T22:01:47.596-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-18T22:01:49.919-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-8] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-test2@alumchat.lol
+2024-08-18T22:01:50.074-06:00 ERROR 16756 --- [xmpp] [http-nio-8080-exec-8] c.xmpp.demo.controller.ContactService    : Failed to get contacts for user: alv21188-test2@alumchat.lol
+
+org.jivesoftware.smack.XMPPException$XMPPErrorException: XMPP error reply received from alv21188-gajim@alumchat.lol: XMPPError: service-unavailable - cancel
+	at org.jivesoftware.smack.XMPPException$XMPPErrorException.ifHasErrorThenThrow(XMPPException.java:161) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.XMPPException$XMPPErrorException.ifHasErrorThenThrow(XMPPException.java:155) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.StanzaCollector.nextResultOrThrow(StanzaCollector.java:284) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.StanzaCollector.nextResultOrThrow(StanzaCollector.java:228) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:140) ~[smack-extensions-4.4.3.jar:4.4.3]
+	at com.xmpp.demo.controller.ContactService.getContacts(ContactService.java:61) ~[main/:na]
+	at com.xmpp.demo.controller.ContactController.getContacts(ContactController.java:68) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-08-18T22:02:14.878-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-test2,alv21188-gajim@alumchat.lol
+2024-08-18T22:02:14.878-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-test3@alumchat.lol/a115689c-fae9-4ea9-90d1-3020260ed147] (13)
+2024-08-18T22:02:14.878-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-test3@alumchat.lol
+2024-08-18T22:02:14.878-06:00  WARN 16756 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : User alv21188-test2,alv21188-gajim@alumchat.lol not connected or invalid user
+2024-08-18T22:02:44.652-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-18T22:02:44.652-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-18T22:02:45.240-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/a038cc82-d949-46c8-bb67-6677b3122f87] (16)
+2024-08-18T22:02:45.240-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/a038cc82-d949-46c8-bb67-6677b3122f87] (16)
+2024-08-18T22:02:45.240-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-18T22:02:47.692-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-test2@alumchat.lol
+2024-08-18T22:02:47.965-06:00 ERROR 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.ContactService    : Failed to get contacts for user: alv21188-test2@alumchat.lol
+
+org.jivesoftware.smack.XMPPException$XMPPErrorException: XMPP error reply received from alv21188-gajim@alumchat.lol: XMPPError: service-unavailable - cancel
+	at org.jivesoftware.smack.XMPPException$XMPPErrorException.ifHasErrorThenThrow(XMPPException.java:161) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.XMPPException$XMPPErrorException.ifHasErrorThenThrow(XMPPException.java:155) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.StanzaCollector.nextResultOrThrow(StanzaCollector.java:284) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smack.StanzaCollector.nextResultOrThrow(StanzaCollector.java:228) ~[smack-core-4.4.3.jar:4.4.3]
+	at org.jivesoftware.smackx.vcardtemp.VCardManager.loadVCard(VCardManager.java:140) ~[smack-extensions-4.4.3.jar:4.4.3]
+	at com.xmpp.demo.controller.ContactService.getContacts(ContactService.java:61) ~[main/:na]
+	at com.xmpp.demo.controller.ContactController.getContacts(ContactController.java:68) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-08-18T22:03:20.997-06:00  INFO 16756 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-18T22:03:21.061-06:00  INFO 16756 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 16756 (C:\Users\Alvar\eclipse-workspace\xmpp\bin\main started by Alvar in C:\Users\Alvar\eclipse-workspace\xmpp)
+2024-08-18T22:03:21.061-06:00  INFO 16756 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-18T22:03:21.191-06:00  INFO 16756 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-18T22:03:21.191-06:00  INFO 16756 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-18T22:03:21.191-06:00  INFO 16756 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-18T22:03:21.205-06:00  INFO 16756 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-18T22:03:21.205-06:00  INFO 16756 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 142 ms
+2024-08-18T22:03:21.253-06:00  INFO 16756 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-18T22:03:21.259-06:00  INFO 16756 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-18T22:03:21.261-06:00  INFO 16756 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.217 seconds (process running for 3729.373)
+2024-08-18T22:03:21.262-06:00  INFO 16756 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-18T22:03:24.764-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-18T22:03:24.764-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-18T22:03:24.765-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-18T22:03:24.767-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-18T22:03:24.767-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-18T22:03:25.332-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/c8912186-d787-4ef5-ba73-5eafe24a1126] (17)
+2024-08-18T22:03:25.333-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/c8912186-d787-4ef5-ba73-5eafe24a1126] (17)
+2024-08-18T22:03:25.334-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-18T22:03:31.747-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-test2,alv21188-gajim@alumchat.lol
+2024-08-18T22:03:31.747-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/c8912186-d787-4ef5-ba73-5eafe24a1126] (17)
+2024-08-18T22:03:31.748-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-test2@alumchat.lol
+2024-08-18T22:03:31.748-06:00  WARN 16756 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : User alv21188-test2,alv21188-gajim@alumchat.lol not connected or invalid user
+2024-08-18T22:03:44.375-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Username: alv21188-test2
+2024-08-18T22:03:44.375-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-18T22:03:44.930-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-test2@alumchat.lol/22f17937-488f-4dce-89ef-136bc82a25bc] (18)
+2024-08-18T22:03:44.930-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/22f17937-488f-4dce-89ef-136bc82a25bc] (18)
+2024-08-18T22:03:44.930-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-5] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-18T22:03:46.156-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-6] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-test2@alumchat.lol
+2024-08-18T22:04:02.282-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-test2@alumchat.lol
+2024-08-18T22:04:02.282-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-test2@alumchat.lol/22f17937-488f-4dce-89ef-136bc82a25bc] (18)
+2024-08-18T22:04:02.282-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-test2@alumchat.lol
+2024-08-18T22:04:02.383-06:00  INFO 16756 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-test2@alumchat.lol disconnected successfully
+2024-08-18T23:05:02.946-06:00  INFO 16756 --- [xmpp] [RMI TCP Connection(128)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

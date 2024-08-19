@@ -57,11 +57,6 @@ public class ContactService {
                             status = isAvailable ? "Disponible" : "Desconectado";
                         }
                         
-                        // Obtener información adicional usando vCard
-                        VCard vCard = vCardManager.loadVCard(bareJid);
-                        String phoneNumber = vCard.getField("TEL"); // O el campo correspondiente en vCard
-                        
-                        logger.info("phone number: {}", phoneNumber);
                         
                         contactsList.add(new ContactXMPP(contactUsername, status, fullName));
                     }
