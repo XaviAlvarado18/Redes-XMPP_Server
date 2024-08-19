@@ -2,6 +2,7 @@ package com.xmpp.demo.controller;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,11 +43,11 @@ public class MessageService {
                     String to = ((EntityJid) message.getTo()).asEntityBareJidString();
                     logger.info("Received message from {}: {}. To: {}", from, message.getBody(), to);
 
-                    // Obtener la fecha actual en el formato "dd/MM"
-                    String date_msg = LocalDate.now().format(DateTimeFormatter.ofPattern("dd/MM"));
+                    // Obtener la fecha y hora actual en el formato "dd/MM HH:mm"
+                    String dateTimeMsg = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM HH:mm"));
 
-                    // Crear un nuevo objeto Message con la información adicional
-                    MessageXMPP msg = new MessageXMPP(message.getBody(), from.asEntityBareJidString(), date_msg, to);
+                    // Crear un nuevo objeto MessageXMPP con la información adicional
+                    MessageXMPP msg = new MessageXMPP(message.getBody(), from.asEntityBareJidString(), dateTimeMsg, to);
 
                     // Almacenar el mensaje en la lista correspondiente al usuario
                     userMessages.computeIfAbsent(to, k -> new ArrayList<>()).add(msg);
@@ -61,6 +62,7 @@ public class MessageService {
 
         logger.info("Incoming message listener added to ChatManager");
     }
+
 
     public List<MessageXMPP> getMessages(String username) {
         logger.info("Retrieving messages for user: {}", username);
@@ -82,14 +84,16 @@ public class MessageService {
             ChatManager chatManager = ChatManager.getInstanceFor(connection);
             Chat chat = chatManager.chatWith(JidCreate.entityBareFrom(to));
             
-            // Send message
+            // Enviar mensaje
             chat.send(body);
-    
-            // Log and store sent message
-            String date_msg = LocalDate.now().format(DateTimeFormatter.ofPattern("dd/MM"));
-            MessageXMPP sentMessage = new MessageXMPP(body, connection.getUser().asEntityBareJidString(), date_msg, to);
+
+            // Obtener la fecha y hora actual en el formato "dd/MM HH:mm"
+            String dateTimeMsg = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM HH:mm"));
+
+            // Crear un nuevo objeto MessageXMPP con la información adicional
+            MessageXMPP sentMessage = new MessageXMPP(body, connection.getUser().asEntityBareJidString(), dateTimeMsg, to);
             
-            // Store message for both sender and recipient
+            // Almacenar el mensaje para ambos, remitente y destinatario
             userMessages.computeIfAbsent(to, k -> new ArrayList<>()).add(sentMessage);
             userMessages.computeIfAbsent(connection.getUser().asEntityBareJidString(), k -> new ArrayList<>()).add(sentMessage);
             
@@ -98,5 +102,6 @@ public class MessageService {
             logger.error("Failed to send message", e);
         }
     }
+
     
 }
