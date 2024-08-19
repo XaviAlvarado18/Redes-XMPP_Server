@@ -77,7 +77,7 @@ public class ContactController {
     }
     
     @CrossOrigin(origins = "http://localhost:4200")
-    @PostMapping("/add")
+    @PostMapping("/add-contact")
     public ResponseEntity<String> addContact(HttpSession session, @RequestParam("username") String username) throws XmppStringprepException {
         Logger logger = LoggerFactory.getLogger(ContactController.class);
 
