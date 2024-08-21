@@ -27,11 +27,11 @@ dependencies {
     implementation "org.igniterealtime.smack:smack-tcp:4.4.3"
     implementation "org.igniterealtime.smack:smack-im:4.4.3"
     implementation "org.igniterealtime.smack:smack-extensions:4.4.3"
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.1'
     
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-    
 
 }
 

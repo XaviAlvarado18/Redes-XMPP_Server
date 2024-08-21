@@ -1,8 +1,10 @@
 package com.xmpp.demo.controller;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.io.File;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.packet.Presence;
@@ -17,6 +19,8 @@ import org.jxmpp.jid.parts.Resourcepart;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service
 public class ConferenceService {
@@ -55,7 +59,6 @@ public class ConferenceService {
             muc.invite(JidCreate.entityBareFrom(member), "Join the conference");
         }
 
-
         // Esperar un momento para asegurar que la sala esté disponible
         Thread.sleep(2000); // Espera de 2 segundos, ajustar si es necesario
 
@@ -75,6 +78,14 @@ public class ConferenceService {
             logger.info("Uniendome a la sala");
         }
 
+        // Serializar la información del grupo a JSON y guardarla en un archivo
+        saveGroupRequestToJson(groupRequest);
+    }
+
+    private static void saveGroupRequestToJson(GroupRequest groupRequest) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        File file = new File("groupRequest.json");
+        objectMapper.writeValue(file, groupRequest);
     }
 
     public List<String> getJoinedGroups(AbstractXMPPConnection connection, String username) throws Exception {

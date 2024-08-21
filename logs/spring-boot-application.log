@@ -1612,3 +1612,49 @@ java.lang.Exception: Failed to join the conference room: Test3@conference.alumch
 2024-08-21T16:58:42.693-06:00  INFO 17356 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2024-08-21T16:58:43.125-06:00  INFO 17356 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 17356 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
 2024-08-21T16:58:43.129-06:00  INFO 17356 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T16:58:43.926-06:00  INFO 17356 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-21T16:58:43.929-06:00  INFO 17356 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T16:58:43.933-06:00  INFO 17356 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-21T16:58:43.986-06:00  INFO 17356 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T16:58:43.989-06:00  INFO 17356 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 831 ms
+2024-08-21T16:58:44.187-06:00  INFO 17356 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-21T16:58:44.219-06:00  INFO 17356 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-21T16:58:44.226-06:00  INFO 17356 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 1.304 seconds (process running for 6473.324)
+2024-08-21T16:58:44.228-06:00  INFO 17356 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-21T16:58:53.512-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-21T16:58:53.513-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-21T16:58:53.514-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-21T16:58:53.519-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-21T16:58:53.520-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-21T16:58:53.999-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/084724a3-3c64-475f-b271-465cfcfb4bfa] (15)
+2024-08-21T16:58:54.003-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/084724a3-3c64-475f-b271-465cfcfb4bfa] (15)
+2024-08-21T16:58:54.004-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-21T16:59:18.337-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : mucManager: org.jivesoftware.smackx.muc.MultiUserChatManager@74a5256a
+2024-08-21T16:59:18.338-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : JIDS: []
+2024-08-21T17:15:56.465-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Received disconnect request for user: alv21188-gajim@alumchat.lol
+2024-08-21T17:15:56.466-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/084724a3-3c64-475f-b271-465cfcfb4bfa] (15)
+2024-08-21T17:15:56.467-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Connection found for user: alv21188-gajim@alumchat.lol
+2024-08-21T17:15:56.535-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : User alv21188-gajim@alumchat.lol disconnected successfully
+2024-08-21T17:16:16.512-06:00  INFO 17356 --- [xmpp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-21T17:16:16.747-06:00  INFO 17356 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Starting XmppApplication using Java 22.0.1 with PID 17356 (C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server\bin\main started by Kristopher in C:\Users\Kristopher\Documents\S8\Redes\Eclipse-Workspace\Redes-XMPP_Server)
+2024-08-21T17:16:16.750-06:00  INFO 17356 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T17:16:17.153-06:00  INFO 17356 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-21T17:16:17.154-06:00  INFO 17356 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T17:16:17.156-06:00  INFO 17356 --- [xmpp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-21T17:16:17.198-06:00  INFO 17356 --- [xmpp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T17:16:17.199-06:00  INFO 17356 --- [xmpp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 444 ms
+2024-08-21T17:16:17.329-06:00  INFO 17356 --- [xmpp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-21T17:16:17.340-06:00  INFO 17356 --- [xmpp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-21T17:16:17.347-06:00  INFO 17356 --- [xmpp] [restartedMain] com.xmpp.demo.XmppApplication            : Started XmppApplication in 0.694 seconds (process running for 7526.445)
+2024-08-21T17:16:17.350-06:00  INFO 17356 --- [xmpp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-21T17:16:53.429-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-21T17:16:53.429-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-21T17:16:53.431-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-21T17:16:53.434-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-21T17:16:53.434-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-21T17:16:53.914-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/ea0dde63-1482-491e-aa16-f0708abb582c] (16)
+2024-08-21T17:16:53.915-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/ea0dde63-1482-491e-aa16-f0708abb582c] (16)
+2024-08-21T17:16:53.917-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-21T17:17:22.320-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : User JID: alv21188-gajim@alumchat.lol/ea0dde63-1482-491e-aa16-f0708abb582c
+2024-08-21T17:17:22.329-06:00  WARN 17356 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Presence for user alv21188-gajim@alumchat.lol/ea0dde63-1482-491e-aa16-f0708abb582c is null
+2024-08-21T17:17:22.473-06:00  INFO 17356 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Uniendome a la sala
