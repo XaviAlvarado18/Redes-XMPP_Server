@@ -1,6 +1,8 @@
 package com.xmpp.demo.controller;
 
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
@@ -8,10 +10,12 @@ import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -58,4 +62,24 @@ public class ConferenceController {
 
 			return response;
 		}
+
+
+		@CrossOrigin(origins = "http://localhost:4200")
+		@GetMapping("/get-groups")
+		public List<String> getGroups(HttpSession session, @RequestParam("username") String username) {
+			connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+			if (connection == null) {
+				return Collections.singletonList("No connection found in session");
+			}
+
+			try {
+				return conferenceService.getJoinedGroups(connection, username);
+			} catch (Exception e) {
+				// Manejar la excepción y devolver un mensaje de error
+				e.printStackTrace();
+				return Collections.singletonList("Failed to retrieve groups: " + e.getMessage());
+			}
+		}
+
 }
