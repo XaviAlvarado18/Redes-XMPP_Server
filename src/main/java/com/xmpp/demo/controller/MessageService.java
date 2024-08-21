@@ -103,5 +103,30 @@ public class MessageService {
         }
     }
 
+    public void sendGroupMessage(AbstractXMPPConnection connection, List<String> to, String body) throws XmppStringprepException, IOException, InterruptedException, XMPPException, NotConnectedException {
+        try {
+            ChatManager chatManager = ChatManager.getInstanceFor(connection);
+    
+            // Iterar sobre la lista de destinatarios y enviar el mensaje
+            for (String recipient : to) {
+                Chat chat = chatManager.chatWith(JidCreate.entityBareFrom(recipient));
+                chat.send(body);
+    
+                // Obtener la fecha y hora actual en el formato "dd/MM HH:mm"
+                String dateTimeMsg = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM HH:mm"));
+    
+                // Crear un nuevo objeto MessageXMPP con la información adicional
+                MessageXMPP sentMessage = new MessageXMPP(body, connection.getUser().asEntityBareJidString(), dateTimeMsg, recipient);
+    
+                // Almacenar el mensaje para ambos, remitente y destinatario
+                userMessages.computeIfAbsent(recipient, k -> new ArrayList<>()).add(sentMessage);
+                userMessages.computeIfAbsent(connection.getUser().asEntityBareJidString(), k -> new ArrayList<>()).add(sentMessage);
+            }
+    
+            logger.info("Message sent from {} to group: {}", connection.getUser().asEntityBareJidString(), body);
+        } catch (Exception e) {
+            logger.error("Failed to send group message", e);
+        }
+    }
     
 }

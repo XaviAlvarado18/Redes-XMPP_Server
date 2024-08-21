@@ -142,5 +142,35 @@ public class MessageController {
 
 	        return response;
 	    }
+
+
+		@CrossOrigin(origins = "http://localhost:4200")
+		@PostMapping("/send-group-message")
+		public Map<String, String> sendGroupMessage(
+				@RequestParam("to") List<String> to, 
+				@RequestParam("body") String body, 
+				HttpSession session) {
+			
+			Map<String, String> response = new HashMap<>();
+
+			connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+			if (connection == null) {
+				response.put("status", "no connection found in session");
+				return response;
+			}
+
+			try {
+				messageService.sendGroupMessage(connection, to, body);
+				response.put("status", "message sent to group");
+			} catch (Exception e) {
+				logger.error("Failed to send group message", e);
+				response.put("status", "error");
+				response.put("error", e.getMessage());
+			}
+
+			return response;
+		}
+
 	
 }
