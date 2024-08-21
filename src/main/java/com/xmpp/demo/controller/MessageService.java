@@ -63,7 +63,6 @@ public class MessageService {
         logger.info("Incoming message listener added to ChatManager");
     }
 
-
     public List<MessageXMPP> getMessages(String username) {
         logger.info("Retrieving messages for user: {}", username);
         List<MessageXMPP> messages = userMessages.getOrDefault(username, new ArrayList<>());
