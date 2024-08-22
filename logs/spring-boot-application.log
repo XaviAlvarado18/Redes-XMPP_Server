@@ -3797,3 +3797,16 @@ Caused by: java.io.FileNotFoundException: class path resource [org/springframewo
 2024-08-22T00:30:08.534-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-2] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
 2024-08-22T00:31:01.550-06:00  INFO 8592 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message: com.xmpp.demo.controller.MessageXMPP@36294317
 2024-08-22T00:31:11.297-06:00  INFO 8592 --- [xmpp] [Smack Cached Executor] c.xmpp.demo.controller.XMPPController    : Received message: com.xmpp.demo.controller.MessageXMPP@38eebba2
+2024-08-22T00:41:43.293-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Username: alv21188-gajim
+2024-08-22T00:41:43.293-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Password: 31dic2002
+2024-08-22T00:41:43.891-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Connection stored in session: XMPPTCPConnection[alv21188-gajim@alumchat.lol/be54745b-90ba-4228-9304-7caa6868a817] (7)
+2024-08-22T00:41:43.891-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : ChatManager initialized for connection: XMPPTCPConnection[alv21188-gajim@alumchat.lol/be54745b-90ba-4228-9304-7caa6868a817] (7)
+2024-08-22T00:41:43.891-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-10] c.xmpp.demo.controller.XMPPController    : Incoming message listener added to ChatManager
+2024-08-22T00:41:46.639-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-22T00:41:46.639-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-22T00:41:46.639-06:00  WARN 8592 --- [xmpp] [http-nio-8080-exec-1] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-22T00:41:48.722-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-2] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
+2024-08-22T00:43:26.224-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
+2024-08-22T00:46:11.446-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-10] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
+2024-08-22T00:47:43.043-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-3] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
+2024-08-22T00:49:53.978-06:00  INFO 8592 --- [xmpp] [http-nio-8080-exec-7] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
