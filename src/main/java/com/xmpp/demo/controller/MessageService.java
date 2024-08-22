@@ -82,6 +82,20 @@ public class MessageService {
 
         return messages;
     }
+    
+    public List<MessageXMPP> getMessagesGroup(String jid) {
+        logger.info("Retrieving messages for: {}", jid);
+        List<MessageXMPP> messages = userMessages.getOrDefault(jid, new ArrayList<>());
+
+        // Log para verificar los mensajes recuperados
+        if (messages.isEmpty()) {
+            logger.warn("No messages found for: {}", jid);
+        } else {
+            logger.info("Messages for {}: {}", jid, messages);
+        }
+
+        return messages;
+    }
 
     
     public void sendMessage(AbstractXMPPConnection connection, String to, String body) throws XmppStringprepException, IOException, InterruptedException, XMPPException, NotConnectedException {
