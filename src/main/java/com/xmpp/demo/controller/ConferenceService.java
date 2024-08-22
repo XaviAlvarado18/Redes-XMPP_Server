@@ -2,8 +2,10 @@ package com.xmpp.demo.controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 import java.io.File;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
@@ -26,6 +28,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ConferenceService {
 
     private static final Logger logger = LoggerFactory.getLogger(XMPPController.class);
+    
+    private static final String GROUPS_JSON_FILE = "groupRequest.json";
 
     public static void createConference(AbstractXMPPConnection connection, GroupRequest groupRequest) throws Exception {
         MultiUserChatManager mucManager = MultiUserChatManager.getInstanceFor(connection);
@@ -88,33 +92,21 @@ public class ConferenceService {
         objectMapper.writeValue(file, groupRequest);
     }
 
-    public List<String> getJoinedGroups(AbstractXMPPConnection connection, String username) throws Exception {
-        MultiUserChatManager mucManager = MultiUserChatManager.getInstanceFor(connection);
     
-        logger.info("mucManager: {}", mucManager);
-    
-        // Obtener los JIDs de las salas de conferencia a las que el usuario está conectado
-        Set<EntityBareJid> joinedRooms = mucManager.getJoinedRooms();
-        List<String> groupJids = new ArrayList<>();
-    
-        logger.info("JIDS: {}", joinedRooms);
-    
-        for (EntityBareJid roomJid : joinedRooms) {
-            MultiUserChat muc = mucManager.getMultiUserChat(roomJid);
-    
-            // Convertir el nickname en Resourcepart
-            Resourcepart resourcePart = Resourcepart.from(username);
-            EntityFullJid fullJid = JidCreate.entityFullFrom(roomJid, resourcePart);
-    
-            // Verificar la presencia del usuario en la sala
-            Presence occupantPresence = muc.getOccupantPresence(fullJid);
-    
-            if (occupantPresence != null && occupantPresence.getType() == Presence.Type.available) {
-                logger.info("roomJid: {}", roomJid);
-                groupJids.add(roomJid.toString());
-            }
-        }
-    
-        return groupJids;
+    public List<GroupRequest> getGroupsForUser(String username) throws Exception {
+        
+    	logger.info("Este es (ConferenceService): {}", username);
+    	// Leer el archivo JSON
+        ObjectMapper objectMapper = new ObjectMapper();
+        
+        GroupRequest[] groups = objectMapper.readValue(new File(GROUPS_JSON_FILE), GroupRequest[].class);
+
+        logger.info("Contenido del JSON (ConferenceService): {}", groups);
+        
+        // Filtrar los grupos donde el usuario es miembro
+        return List.of(groups).stream()
+                .filter(group -> group.getMembers().contains(username))
+                .collect(Collectors.toList());
     }
+    
 }

@@ -10,15 +10,21 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
+import org.jivesoftware.smack.SmackException;
 import org.jivesoftware.smack.SmackException.NotConnectedException;
+import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.chat2.Chat;
 import org.jivesoftware.smack.chat2.ChatManager;
 import org.jivesoftware.smack.chat2.IncomingChatMessageListener;
 import org.jivesoftware.smack.packet.Message;
+import org.jivesoftware.smackx.muc.MucEnterConfiguration;
+import org.jivesoftware.smackx.muc.MultiUserChat;
+import org.jivesoftware.smackx.muc.MultiUserChatManager;
 import org.jxmpp.jid.EntityBareJid;
 import org.jxmpp.jid.EntityJid;
 import org.jxmpp.jid.impl.JidCreate;
+import org.jxmpp.jid.parts.Resourcepart;
 import org.jxmpp.stringprep.XmppStringprepException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -102,27 +108,35 @@ public class MessageService {
         }
     }
 
-    public void sendGroupMessage(AbstractXMPPConnection connection, List<String> to, String body) throws XmppStringprepException, IOException, InterruptedException, XMPPException, NotConnectedException {
+    public void sendGroupMessage(XMPPConnection connection, String groupName, String body) throws XmppStringprepException, IOException, InterruptedException, XMPPException, SmackException {
         try {
-            ChatManager chatManager = ChatManager.getInstanceFor(connection);
-    
-            // Iterar sobre la lista de destinatarios y enviar el mensaje
-            for (String recipient : to) {
-                Chat chat = chatManager.chatWith(JidCreate.entityBareFrom(recipient));
-                chat.send(body);
-    
-                // Obtener la fecha y hora actual en el formato "dd/MM HH:mm"
-                String dateTimeMsg = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM HH:mm"));
-    
-                // Crear un nuevo objeto MessageXMPP con la información adicional
-                MessageXMPP sentMessage = new MessageXMPP(body, connection.getUser().asEntityBareJidString(), dateTimeMsg, recipient);
-    
-                // Almacenar el mensaje para ambos, remitente y destinatario
-                userMessages.computeIfAbsent(recipient, k -> new ArrayList<>()).add(sentMessage);
-                userMessages.computeIfAbsent(connection.getUser().asEntityBareJidString(), k -> new ArrayList<>()).add(sentMessage);
+            String groupJid = groupName + "@conference.alumchat.lol";
+            EntityBareJid groupEntityJid = JidCreate.entityBareFrom(groupJid);
+            
+            MultiUserChatManager multiUserChatManager = MultiUserChatManager.getInstanceFor(connection);
+            MultiUserChat multiUserChat = multiUserChatManager.getMultiUserChat(groupEntityJid);
+
+            // Si no estás unido al grupo, únete primero
+            if (!multiUserChat.isJoined()) {
+            	MucEnterConfiguration.Builder builder = multiUserChat.getEnterConfigurationBuilder(
+            		    Resourcepart.from(connection.getUser().getLocalpart().toString())
+            	);
+                MucEnterConfiguration mucEnterConfiguration = builder.build();
+                multiUserChat.join(mucEnterConfiguration);
             }
-    
-            logger.info("Message sent from {} to group: {}", connection.getUser().asEntityBareJidString(), body);
+
+            // Enviar mensaje
+            multiUserChat.sendMessage(body);
+
+            // Obtener la fecha y hora actual en el formato "dd/MM HH:mm"
+            String dateTimeMsg = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM HH:mm"));
+
+            // Crear un nuevo objeto MessageXMPP con la información adicional
+            MessageXMPP sentMessage = new MessageXMPP(body, connection.getUser().asEntityBareJidString(), dateTimeMsg, groupJid);
+
+            // Almacenar el mensaje en tu estructura, si es necesario
+
+            logger.info("Message sent to group {}: {}", groupJid, body);
         } catch (Exception e) {
             logger.error("Failed to send group message", e);
         }

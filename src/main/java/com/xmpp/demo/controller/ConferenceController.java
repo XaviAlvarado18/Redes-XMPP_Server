@@ -64,22 +64,29 @@ public class ConferenceController {
 		}
 
 
-		@CrossOrigin(origins = "http://localhost:4200")
-		@GetMapping("/get-groups")
-		public List<String> getGroups(HttpSession session, @RequestParam("username") String username) {
-			connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+	    @CrossOrigin(origins = "http://localhost:4200")
+	    @GetMapping("/get-groups")
+	    public Map<String, Object> getGroups(HttpSession session) {
+	        Map<String, Object> response = new HashMap<>();
+	        try {
+	        	connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+	        	
+	            // Obtener el nombre de usuario desde la sesión
+	        	String username = connection.getUser().asEntityBareJidString();
+	        	logger.info("Este es: {}", username);
+	        	
+	            // Obtener los grupos donde el usuario está presente
+	            List<GroupRequest> groups = conferenceService.getGroupsForUser(username);
+	
+	            response.put("status", "success");
+	            response.put("groups", groups);
+	        } catch (Exception e) {
+	            response.put("status", "error");
+	            response.put("error", e.getMessage());
+	        }
+	
+	        return response;
+	    }
 
-			if (connection == null) {
-				return Collections.singletonList("No connection found in session");
-			}
-
-			try {
-				return conferenceService.getJoinedGroups(connection, username);
-			} catch (Exception e) {
-				// Manejar la excepción y devolver un mensaje de error
-				e.printStackTrace();
-				return Collections.singletonList("Failed to retrieve groups: " + e.getMessage());
-			}
-		}
 
 }
