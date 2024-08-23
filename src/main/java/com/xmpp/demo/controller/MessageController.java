@@ -31,6 +31,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 
 @RestController
@@ -150,7 +153,7 @@ public class MessageController {
 		    }
 		    
 		    try {
-		    	logger.info("Entrando2...");
+		    	//logger.info("Entrando2...");
 		    	
 		        // Obtener el MultiUserChat manager
 		        MultiUserChatManager mucManager = MultiUserChatManager.getInstanceFor(connection);
@@ -161,7 +164,7 @@ public class MessageController {
 		        // Obtener el nickname del usuario actual
 		        Resourcepart nickname = Resourcepart.from(connection.getUser().getLocalpart().toString());
 		        
-		        logger.info("Entrando3...");
+		        //logger.info("Entrando3...");
 		        
 		        // Configurar la entrada a la sala
 		        MucEnterConfiguration.Builder mucConfigBuilder = muc.getEnterConfigurationBuilder(nickname)
@@ -171,14 +174,12 @@ public class MessageController {
 		        
 		        MucEnterConfiguration mucConfig = mucConfigBuilder.build();
 		        
-		        logger.info("Entrando4...");
+		        //logger.info("Entrando4...");
+		       
 		        
-		        // Unirse a la sala si no lo está
-		        if (!muc.isJoined()) {
-		            muc.join(mucConfig);
-		        }
+		        // Usar ExecutorService para manejar la operación de unirse a la sala
 		        
-		        logger.info("DEBUG...");
+		        //logger.info("DEBUG...");
 		        
 		        // Configurar el listener para recibir mensajes en tiempo real
 		        muc.addMessageListener(new MessageListener() {
