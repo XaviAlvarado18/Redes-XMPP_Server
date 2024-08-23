@@ -253,6 +253,7 @@ public class MessageController {
 	 	public Map<String, String> sendGroupMessage(@RequestParam("groupName") String groupName, @RequestParam("body") String body, HttpSession session) {
 	 	    Map<String, String> response = new HashMap<>();
 
+			logger.info("groupName : {}", groupName);
 	 	    connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
 
 	 	    if (connection == null) {
