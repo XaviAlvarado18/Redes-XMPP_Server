@@ -44,6 +44,20 @@ public class ConferenceController {
 			}
 
 			try {
+				String username = connection.getUser().asEntityBareJidString();
+				logger.error("Este es: {}", username);
+				
+				
+				// Asegurarse de que el usuario sea parte del grupo
+		        List<String> members = groupRequest.getMembers();
+		        if (!members.contains(username)) {
+		            members.add(username);
+		        }
+		        
+		        groupRequest.setMembers(members);
+				
+		        logger.error("Miembros antes de crear el grupo: {}", groupRequest.getMembers());
+		        
 				// Llama al método para crear la conferencia
 				conferenceService.createConference(connection, groupRequest);
 

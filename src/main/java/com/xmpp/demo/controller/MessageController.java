@@ -141,6 +141,7 @@ public class MessageController {
 		    
 		    XMPPTCPConnection connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
 		    
+		    logger.info("Entrando...");
 		    
 		    
 		    if (connection == null) {
@@ -149,6 +150,8 @@ public class MessageController {
 		    }
 		    
 		    try {
+		    	logger.info("Entrando2...");
+		    	
 		        // Obtener el MultiUserChat manager
 		        MultiUserChatManager mucManager = MultiUserChatManager.getInstanceFor(connection);
 		        
@@ -158,6 +161,8 @@ public class MessageController {
 		        // Obtener el nickname del usuario actual
 		        Resourcepart nickname = Resourcepart.from(connection.getUser().getLocalpart().toString());
 		        
+		        logger.info("Entrando3...");
+		        
 		        // Configurar la entrada a la sala
 		        MucEnterConfiguration.Builder mucConfigBuilder = muc.getEnterConfigurationBuilder(nickname)
 		            .requestMaxCharsHistory(0)
@@ -166,15 +171,20 @@ public class MessageController {
 		        
 		        MucEnterConfiguration mucConfig = mucConfigBuilder.build();
 		        
+		        logger.info("Entrando4...");
+		        
 		        // Unirse a la sala si no lo está
 		        if (!muc.isJoined()) {
 		            muc.join(mucConfig);
 		        }
 		        
+		        logger.info("DEBUG...");
+		        
 		        // Configurar el listener para recibir mensajes en tiempo real
 		        muc.addMessageListener(new MessageListener() {
 		            @Override
 		            public void processMessage(Message message) {
+		            	logger.info("Entrando5...");
 		                if (message.getType() == Type.chat || message.getType() == Type.groupchat) {
 		                    MessageXMPP groupMessage = new MessageXMPP(
 		                        message.getBody(),

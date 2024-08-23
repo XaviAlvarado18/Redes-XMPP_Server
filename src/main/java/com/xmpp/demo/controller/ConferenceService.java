@@ -89,7 +89,22 @@ public class ConferenceService {
     private static void saveGroupRequestToJson(GroupRequest groupRequest) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         File file = new File("groupRequest.json");
-        objectMapper.writeValue(file, groupRequest);
+        
+        List<GroupRequest> existingGroups;
+        
+        // Si el archivo ya existe, lee los grupos existentes
+        if (file.exists()) {
+            GroupRequest[] groups = objectMapper.readValue(file, GroupRequest[].class);
+            existingGroups = new ArrayList<>(List.of(groups));
+        } else {
+            existingGroups = new ArrayList<>();
+        }
+
+        // Agrega el nuevo grupo a la lista existente
+        existingGroups.add(groupRequest);
+
+        // Escribe la lista actualizada al archivo JSON
+        objectMapper.writerWithDefaultPrettyPrinter().writeValue(file, existingGroups);
     }
 
     
