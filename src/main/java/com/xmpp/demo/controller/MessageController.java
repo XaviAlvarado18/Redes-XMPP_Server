@@ -185,7 +185,7 @@ public class MessageController {
 		        muc.addMessageListener(new MessageListener() {
 		            @Override
 		            public void processMessage(Message message) {
-		            	logger.info("Entrando5...");
+		            	//logger.info("Entrando5...");
 		                if (message.getType() == Type.chat || message.getType() == Type.groupchat) {
 		                    MessageXMPP groupMessage = new MessageXMPP(
 		                        message.getBody(),
@@ -253,7 +253,9 @@ public class MessageController {
 	 	public Map<String, String> sendGroupMessage(@RequestParam("groupName") String groupName, @RequestParam("body") String body, HttpSession session) {
 	 	    Map<String, String> response = new HashMap<>();
 
-			logger.info("groupName : {}", groupName);
+	 	    logger.info("groupName : {}", groupName);
+	 	    logger.info("body : {}", body);
+
 	 	    connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
 
 	 	    if (connection == null) {
@@ -272,4 +274,5 @@ public class MessageController {
 
 	 	    return response;
 	 	}
+
 }

@@ -124,35 +124,51 @@ public class MessageService {
 
     public void sendGroupMessage(XMPPConnection connection, String groupName, String body) throws XmppStringprepException, IOException, InterruptedException, XMPPException, SmackException {
         try {
+            // Construir el JID del grupo
             String groupJid = groupName + "@conference.alumchat.lol";
+            logger.info("Group JID: {}", groupJid);
+
+            // Crear el EntityBareJid para el grupo
             EntityBareJid groupEntityJid = JidCreate.entityBareFrom(groupJid);
-            
+            logger.info("Group EntityBareJid: {}", groupEntityJid);
+
+            // Obtener el MultiUserChatManager y MultiUserChat para el grupo
             MultiUserChatManager multiUserChatManager = MultiUserChatManager.getInstanceFor(connection);
             MultiUserChat multiUserChat = multiUserChatManager.getMultiUserChat(groupEntityJid);
+            logger.info("MultiUserChat created: {}", multiUserChat);
 
-            // Si no estás unido al grupo, únete primero
+            // Verificar si el usuario está unido al grupo, si no, unirse
             if (!multiUserChat.isJoined()) {
-            	MucEnterConfiguration.Builder builder = multiUserChat.getEnterConfigurationBuilder(
-            		    Resourcepart.from(connection.getUser().getLocalpart().toString())
-            	);
+                logger.info("User not joined to the group, attempting to join...");
+                MucEnterConfiguration.Builder builder = multiUserChat.getEnterConfigurationBuilder(
+                    Resourcepart.from(connection.getUser().getLocalpart().toString())
+                );
                 MucEnterConfiguration mucEnterConfiguration = builder.build();
                 multiUserChat.join(mucEnterConfiguration);
+                logger.info("Joined the group: {}", groupJid);
+            } else {
+                logger.info("Already joined to the group: {}", groupJid);
             }
 
-            // Enviar mensaje
+            // Enviar el mensaje al grupo
+            logger.info("Sending message to group {}: {}", groupJid, body);
             multiUserChat.sendMessage(body);
+            logger.info("Message successfully sent to group: {}", groupJid);
 
             // Obtener la fecha y hora actual en el formato "dd/MM HH:mm"
             String dateTimeMsg = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM HH:mm"));
+            logger.info("Message timestamp: {}", dateTimeMsg);
 
             // Crear un nuevo objeto MessageXMPP con la información adicional
             MessageXMPP sentMessage = new MessageXMPP(body, connection.getUser().asEntityBareJidString(), dateTimeMsg, groupJid);
+            logger.info("Created MessageXMPP object: {}", sentMessage);
 
             // Almacenar el mensaje en tu estructura, si es necesario
+            // Aquí podrías añadir lógica para almacenar o procesar el mensaje si lo necesitas
 
-            logger.info("Message sent to group {}: {}", groupJid, body);
         } catch (Exception e) {
             logger.error("Failed to send group message", e);
+            throw e;  // Lanzar la excepción para poder manejarla adecuadamente en otros lugares
         }
     }
     
