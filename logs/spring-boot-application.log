@@ -2395,3 +2395,15 @@ Caused by: org.jxmpp.stringprep.XmppStringprepException: domainpart can't be the
 2024-08-25T21:05:38.644-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-6] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
 2024-08-25T21:05:49.434-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-9] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
 2024-08-25T21:05:55.399-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-10] c.x.demo.controller.ContactController    : Getting contacts for: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:50.560-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:50.560-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Este es (ConferenceService): alv21188-gajim@alumchat.lol
+2024-08-25T21:07:50.563-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-3] c.xmpp.demo.controller.XMPPController    : Contenido del JSON (ConferenceService): com.xmpp.demo.controller.GroupRequest@71d1628f
+2024-08-25T21:07:50.563-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:50.563-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:50.563-06:00  WARN 8272 --- [xmpp] [http-nio-8080-exec-4] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:53.649-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:53.649-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Este es (ConferenceService): alv21188-gajim@alumchat.lol
+2024-08-25T21:07:53.650-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Este es: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:53.650-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : Retrieving messages for user: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:53.650-06:00  WARN 8272 --- [xmpp] [http-nio-8080-exec-9] c.xmpp.demo.controller.XMPPController    : No messages found for user: alv21188-gajim@alumchat.lol
+2024-08-25T21:07:53.651-06:00  INFO 8272 --- [xmpp] [http-nio-8080-exec-7] c.xmpp.demo.controller.XMPPController    : Contenido del JSON (ConferenceService): com.xmpp.demo.controller.GroupRequest@2334b0a4
