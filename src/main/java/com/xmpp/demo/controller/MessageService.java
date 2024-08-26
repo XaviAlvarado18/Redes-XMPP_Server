@@ -1,13 +1,22 @@
 package com.xmpp.demo.controller;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
 
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.SmackException;
@@ -18,10 +27,29 @@ import org.jivesoftware.smack.chat2.Chat;
 import org.jivesoftware.smack.chat2.ChatManager;
 import org.jivesoftware.smack.chat2.IncomingChatMessageListener;
 import org.jivesoftware.smack.packet.Message;
+import org.jivesoftware.smack.packet.Presence;
+import org.jivesoftware.smack.roster.Roster;
+import org.jivesoftware.smack.tcp.XMPPTCPConnection;
+import org.jivesoftware.smackx.filetransfer.FileTransfer;
+import org.jivesoftware.smackx.filetransfer.FileTransferManager;
+import org.jivesoftware.smackx.filetransfer.FileTransferNegotiator;
+import org.jivesoftware.smackx.filetransfer.OutgoingFileTransfer;
 import org.jivesoftware.smackx.muc.MucEnterConfiguration;
 import org.jivesoftware.smackx.muc.MultiUserChat;
 import org.jivesoftware.smackx.muc.MultiUserChatManager;
+
+
+import org.jivesoftware.smackx.httpfileupload.HttpFileUploadManager;
+import org.jivesoftware.smackx.httpfileupload.UploadService;
+import org.jivesoftware.smackx.httpfileupload.element.Slot;
+import org.jivesoftware.smackx.httpfileupload.element.SlotRequest;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.security.cert.X509Certificate;
+
+import org.jxmpp.jid.DomainBareJid;
 import org.jxmpp.jid.EntityBareJid;
+import org.jxmpp.jid.EntityFullJid;
 import org.jxmpp.jid.EntityJid;
 import org.jxmpp.jid.impl.JidCreate;
 import org.jxmpp.jid.parts.Resourcepart;
@@ -172,4 +200,123 @@ public class MessageService {
         }
     }
     
+    
+    public void sendFile(AbstractXMPPConnection connection, String to, String base64File, String fileName) throws Exception {
+    	// Verificar que el archivo sea un archivo de texto
+        if (!fileName.endsWith(".txt")) {
+            throw new Exception("Solo se permiten archivos .txt");
+        }
+
+        // Decodificar el archivo de Base64
+        byte[] fileBytes = Base64.getDecoder().decode(base64File);
+
+        // Convertir los bytes a texto
+        String fileContent = new String(fileBytes);
+
+        // Crear un JID para el destinatario
+        EntityBareJid bareJid = JidCreate.entityBareFrom(to);
+        
+        // Obtener el Roster y asegurarse de que esté cargado
+        Roster roster = Roster.getInstanceFor(connection);
+        roster.reloadAndWait();
+
+        logger.info("Enviando contenido del archivo a: {}", bareJid);
+        logger.info("Tamaño del archivo: {} bytes", fileBytes.length);
+        logger.info("Nombre del archivo: {}", fileName);
+        
+        // Obtener la presencia del contacto
+        Presence presence = roster.getPresence(bareJid);
+        if (!presence.isAvailable()) {
+            throw new Exception("El usuario " + to + " no está disponible para recibir archivos.");
+        }
+
+        // Enviar el contenido del archivo como un mensaje de chat
+        ChatManager chatManager = ChatManager.getInstanceFor(connection);
+        chatManager.chatWith(bareJid).send("Contenido del archivo '" + fileName + "':\n" + fileContent);
+
+        logger.info("Contenido del archivo enviado como mensaje de texto.");
+    }
+    
+    
+ // Agregar este método a tu clase
+    private static void disableSSLVerification() {
+        try {
+            // Crear un trust manager que no valide las cadenas de certificados
+            TrustManager[] trustAllCerts = new TrustManager[]{
+                new X509TrustManager() {
+                    public X509Certificate[] getAcceptedIssuers() {
+                        return null;
+                    }
+                    public void checkClientTrusted(X509Certificate[] certs, String authType) {
+                    }
+                    public void checkServerTrusted(X509Certificate[] certs, String authType) {
+                    }
+                }
+            };
+
+            // Instalar el trust manager all-trusting
+            SSLContext sc = SSLContext.getInstance("SSL");
+            sc.init(null, trustAllCerts, new java.security.SecureRandom());
+            HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+
+            // Crear un host name verifier all-trusting
+            HostnameVerifier allHostsValid = (hostname, session) -> true;
+
+            // Instalar el host name verifier
+            HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    
+    public void sendNewFile(AbstractXMPPConnection connection, String to, String base64File, String fileName) throws Exception {
+    	
+    	disableSSLVerification();
+    	
+        // Decodificar el archivo de Base64
+        byte[] fileBytes = Base64.getDecoder().decode(base64File);
+
+        // Crear un JID para el destinatario
+        EntityBareJid bareJid = JidCreate.entityBareFrom(to);
+
+        // Obtener el HttpFileUploadManager
+        HttpFileUploadManager uploadManager = HttpFileUploadManager.getInstanceFor(connection);
+
+        if (!uploadManager.isUploadServiceDiscovered()) {
+            throw new Exception("El servidor no soporta HTTP File Upload.");
+        }
+
+        // Crear una solicitud de slot
+        //SlotRequest slotRequest = new SlotRequest((DomainBareJid) connection.getUser().asBareJid(), fileName, fileBytes.length, "image/png");
+
+        // Solicitar un slot
+        Slot slot = uploadManager.requestSlot(fileName, fileBytes.length, "image/png");
+
+        if (slot == null) {
+            throw new Exception("No se pudo obtener un slot para la carga del archivo.");
+        }
+
+        // Subir el archivo
+        URL putUrl = slot.getPutUrl();
+        HttpURLConnection httpCon = (HttpURLConnection) putUrl.openConnection();
+        httpCon.setDoOutput(true);
+        httpCon.setRequestMethod("PUT");
+        try (OutputStream os = httpCon.getOutputStream()) {
+            os.write(fileBytes);
+        }
+
+        int responseCode = httpCon.getResponseCode();
+        if (responseCode != 200 && responseCode != 201) {
+            throw new Exception("Error al subir el archivo. Código de respuesta: " + responseCode);
+        }
+
+        // Obtener la URL de descarga
+        String getUrl = slot.getGetUrl().toString();
+
+        // Enviar un mensaje con la URL del archivo
+        ChatManager chatManager = ChatManager.getInstanceFor(connection);
+        chatManager.chatWith(bareJid).send("Te he enviado un archivo: " + getUrl);
+    }
+
 }

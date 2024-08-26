@@ -274,5 +274,58 @@ public class MessageController {
 
 	 	    return response;
 	 	}
+	 	
+	 	
+	 	@CrossOrigin(origins = "http://localhost:4200")
+	 	@PostMapping("/send-file")
+	 	public Map<String, String> sendFile(@RequestParam("to") String to, @RequestParam("base64File") String base64File, @RequestParam("fileName") String fileName, HttpSession session) {
+	 	    Map<String, String> response = new HashMap<>();
+
+	 	    connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+	 	    if (connection == null) {
+	 	        response.put("status", "no connection found in session");
+	 	        return response;
+	 	    }
+
+	 	    try {
+	 	        logger.info("Initiating file transfer to: {}", to);
+	 	        messageService.sendFile(connection, to, base64File, fileName);
+	 	        response.put("status", "file sent");
+	 	    } catch (Exception e) {
+	 	        logger.error("Failed to send file", e);
+	 	        response.put("status", "error");
+	 	        response.put("error", e.getMessage());
+	 	    }
+
+	 	    return response;
+	 	}
+	 	
+	 	@CrossOrigin(origins = "http://localhost:4200")
+	 	@PostMapping("/send-new-file")
+	 	public Map<String, String> sendNewFile(@RequestParam("to") String to, @RequestParam("base64File") String base64File, @RequestParam("fileName") String fileName, HttpSession session) {
+	 	    Map<String, String> response = new HashMap<>();
+
+	 	    connection = (XMPPTCPConnection) session.getAttribute("xmppConnection");
+
+	 	    if (connection == null) {
+	 	        response.put("status", "no connection found in session");
+	 	        return response;
+	 	    }
+
+	 	    try {
+	 	        logger.info("Initiating file transfer to: {}", to);
+	 	        messageService.sendNewFile(connection, to, base64File, fileName);
+	 	        response.put("status", "file sent");
+	 	    } catch (Exception e) {
+	 	        logger.error("Failed to send file", e);
+	 	        response.put("status", "error");
+	 	        response.put("error", e.getMessage());
+	 	    }
+
+	 	    return response;
+	 	}
+
+	 	
 
 }

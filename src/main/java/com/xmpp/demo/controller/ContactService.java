@@ -35,7 +35,7 @@ public class ContactService {
 
                 VCardManager vCardManager = VCardManager.getInstanceFor(connection);
                 
-             // Get all entries in the roster
+                // Get all entries in the roster
                 for (RosterEntry entry : roster.getEntries()) {
                     Jid jid = entry.getJid();
 
@@ -49,15 +49,23 @@ public class ContactService {
 
                         // Obtener el estado del contacto
                         Presence presence = roster.getPresence(bareJid);
-                        boolean isAvailable = presence.isAvailable();
                         String status = presence.getStatus();
-                        
+
                         if (status == null) {
-                            // Asigna un valor por defecto basado en la disponibilidad
-                            status = isAvailable ? "Disponible" : "Desconectado";
+                            // Si el estado es nulo, asignar en función de la disponibilidad o tipo de presencia
+                            if (presence.getMode() == Presence.Mode.away) {
+                                status = "absent";
+                            } else if (presence.getMode() == Presence.Mode.dnd) {
+                                status = "busy";
+                            } else if (presence.getMode() == Presence.Mode.xa) {
+                                status = "unavailable";
+                            } else if (presence.isAvailable()) {
+                                status = "available";
+                            } else {
+                                status = "offline";
+                            }
                         }
-                        
-                        
+
                         contactsList.add(new ContactXMPP(contactUsername, status, fullName));
                     }
                 }
@@ -68,6 +76,7 @@ public class ContactService {
 
         return contactsList;
     }
+
 
 
     private AbstractXMPPConnection getConnectionForUser(String username) {
